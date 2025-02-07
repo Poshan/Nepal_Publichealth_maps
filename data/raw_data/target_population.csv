@@ -1,0 +1,754 @@
+Code,Governance Units,Provinces,Districts,Name of Government Unit,Total population,Total expected live birth,Population under 1 year,Population 12 - 23 months,Nutrition (0-23 Month),Nutrition (6-23 months),Population under 5 years ARI/ CDD/ Nutrition,Population aged 6-59 months,Nutrition (12-59 Month),Adolescent population aged 10-19 years,Female population aged 15-49 years,Married Female population aged 15-49 years,Total expected pregnancies
+10101,Rural Municipality,Province 1,Taplejung,Phaktanlung Rural Municipality,12237,277,268,266,534,400,1282,1148,1014,2646,3434,2603,327
+10102,Rural Municipality,Province 1,Taplejung,Mikwakhola Rural Municipality,9304,211,204,241,445,343,1052,950,848,2050,2653,2011,249
+10103,Rural Municipality,Province 1,Taplejung,Meringden Rural Municipality,13657,309,299,293,592,443,1432,1283,1133,2780,3618,2742,364
+10104,Rural Municipality,Province 1,Taplejung,Maiwakhola Rural Municipality,11246,255,246,281,527,404,1280,1157,1034,2460,3191,2419,301
+10105,Rural Municipality,Province 1,Taplejung,Aatharai Tribeni Rural Municipality,14013,317,307,297,604,451,1454,1301,1147,2928,4090,3100,374
+10106,Municipality ,Province 1,Taplejung,Phungling Municipality,27472,622,603,478,1081,778,2528,2225,1925,5615,8689,6587,733
+10107,Rural Municipality,Province 1,Taplejung,Yangwarak Rural Municipality,13801,312,302,280,582,431,1349,1198,1047,3038,4151,3146,368
+10108,Rural Municipality,Province 1,Taplejung,Sirijanga Rural Municipality,16108,365,353,358,711,535,1673,1497,1320,3465,4833,3663,430
+10109,Rural Municipality,Province 1,Taplejung,Sidingba Rural Municipality,12293,278,269,262,531,397,1293,1159,1024,2655,3559,2698,328
+10201,Rural Municipality,Province 1,Sankhuwasabha,Bhotkhola Rural Municipality,6497,147,142,162,304,233,744,673,602,1360,1676,1270,173
+10202,Rural Municipality,Province 1,Sankhuwasabha,Makalu Rural Municipality,13431,304,294,334,628,481,1550,1403,1256,2915,3571,2707,358
+10203,Rural Municipality,Province 1,Sankhuwasabha,Silichong Rural Municipality,11682,265,256,243,499,371,1215,1087,959,2626,3260,2471,313
+10204,Rural Municipality,Province 1,Sankhuwasabha,Chichila Rural Municipality,7059,160,155,144,299,222,681,604,526,1516,2055,1558,189
+10205,Rural Municipality,Province 1,Sankhuwasabha,Sabhapokhari Rural Municipality,10261,232,225,197,422,310,1033,921,808,2321,2933,2223,274
+10206,Municipality ,Province 1,Sankhuwasabha,Khandabari Municipality,31552,715,693,578,1271,922,2914,2565,2221,6296,9454,7166,843
+10207,Municipality ,Province 1,Sankhuwasabha,Panchakhapan Municipality,17215,390,377,411,788,600,1918,1730,1541,3737,5006,3795,460
+10208,Municipality ,Province 1,Sankhuwasabha,Chainapur Municipality,27174,615,596,586,1182,884,2796,2498,2200,5675,8234,6241,725
+10209,Municipality ,Province 1,Sankhuwasabha,Madi Municipality,14288,324,313,301,614,458,1436,1280,1123,3017,4438,3364,382
+10210,Municipality ,Province 1,Sankhuwasabha,Dharmadevi Municipality,17932,406,393,370,763,567,1819,1623,1426,3897,5530,4192,479
+10301,Rural Municipality,Province 1,Solukhumbu,Khumbu Pasanglhamu Rural Municipality,9339,206,200,150,350,250,754,654,554,1484,2873,2178,243
+10302,Rural Municipality,Province 1,Solukhumbu,Mahakulung Rural Municipality,11127,246,238,330,568,449,1553,1434,1315,2324,2881,2184,290
+10303,Rural Municipality,Province 1,Solukhumbu,Sotang Rural Municipality,9240,204,197,211,408,310,1057,959,860,2019,2507,1900,241
+10304,Rural Municipality,Province 1,Solukhumbu,Dhudhakoshi Rural Municipality,13060,288,279,290,569,430,1399,1260,1120,2866,3677,2787,340
+10305,Rural Municipality,Province 1,Solukhumbu,Dhudha Koushika Rural Municipality,19103,422,408,455,863,659,2050,1846,1642,4245,5450,4131,498
+10306,Rural Municipality,Province 1,Solukhumbu,Necha Salyan Rural Municipality,15700,346,335,311,646,479,1540,1373,1205,3332,4565,3460,408
+10307,Municipality ,Province 1,Solukhumbu,Solu Dhudhakunda Municipality,20632,456,441,353,794,572,1758,1536,1317,4571,6228,4721,537
+10308,Rural Municipality,Province 1,Solukhumbu,Likhu Pike Rural Municipality,5394,119,115,113,228,171,528,471,413,1186,1497,1135,140
+10401,Rural Municipality,Province 1,Okhaldhunga,Chishankhu Gadhi Rural Municipality,15247,352,341,323,664,494,1593,1423,1252,3319,4530,3434,415
+10402,Municipality ,Province 1,Okhaldhunga,Siddhicharan Municipality,30084,696,673,553,1226,887,2771,2432,2098,5799,9365,7099,821
+10403,Rural Municipality,Province 1,Okhaldhunga,Molung Rural Municipality,16697,386,374,363,737,550,1736,1549,1362,3427,4990,3782,455
+10404,Rural Municipality,Province 1,Okhaldhunga,Khiji Demba Rural Municipality,15671,362,351,311,662,487,1593,1418,1242,3437,4373,3315,427
+10405,Rural Municipality,Province 1,Okhaldhunga,Likhu Rural Municipality,14085,326,315,304,619,462,1451,1294,1136,3215,4036,3059,384
+10406,Rural Municipality,Province 1,Okhaldhunga,Champadevi Rural Municipality,18823,435,421,455,876,666,2167,1957,1746,4116,5630,4268,513
+10407,Rural Municipality,Province 1,Okhaldhunga,Sunkoshi Rural Municipality,18732,433,419,413,832,623,1972,1763,1553,4142,5622,4261,511
+10408,Rural Municipality,Province 1,Okhaldhunga,Manebhanjyang Rural Municipality,21542,498,482,449,931,690,2165,1924,1683,4554,6707,5084,587
+10501,Rural Municipality,Province 1,Khotang,Kepilasgadhi Rural Municipality,13451,307,297,295,592,444,1421,1273,1124,2970,3909,2963,362
+10502,Rural Municipality,Province 1,Khotang,Aiselukharka Rural Municipality,14246,325,315,301,616,459,1426,1269,1111,3068,4344,3293,383
+10503,Rural Municipality,Province 1,Khotang,Lamidanda Rural Municipality,11774,269,260,257,517,387,1221,1091,961,2563,3559,2698,317
+10504,Municipality ,Province 1,Khotang,Halesi Tuwachung Municipality,26078,596,577,593,1170,882,2835,2547,2258,5772,7582,5747,703
+10505,Municipality ,Province 1,Khotang,Rupakot Majhuwagadhi Municipality,43345,990,959,829,1788,1307,4094,3613,3135,8797,13218,10019,1168
+10506,Rural Municipality,Province 1,Khotang,Sakela Rural Municipality,10282,235,227,191,418,305,949,836,722,2272,3070,2327,277
+10507,Rural Municipality,Province 1,Khotang,Diprung Rural Municipality,17924,409,396,405,801,603,1943,1745,1547,3733,5330,4040,482
+10508,Rural Municipality,Province 1,Khotang,Khotehang Rural Municipality,19903,455,440,418,858,638,2036,1816,1596,4231,5893,4467,537
+10509,Rural Municipality,Province 1,Khotang,Jante Dhunga Rural Municipality,13769,315,304,297,601,449,1436,1284,1132,2887,3840,2911,371
+10510,Rural Municipality,Province 1,Khotang,Baraha Pokhari Rural Municipality,12739,291,282,288,570,429,1443,1302,1161,2661,3647,2764,343
+10601,Municipality ,Province 1,Bhojpur,Shadananda Municipality,28253,638,617,601,1218,910,2945,2637,2328,6020,8241,6247,752
+10602,Rural Municipality,Province 1,Bhojpur,Salpa Silichho Rural Municipality,11612,262,254,293,547,420,1381,1254,1127,2583,3209,2432,309
+10603,Rural Municipality,Province 1,Bhojpur,Tyamke Maiyum Rural Municipality,16205,366,354,315,669,492,1577,1400,1223,3552,4816,3651,432
+10604,Municipality ,Province 1,Bhojpur,Bhojpur Municipality,25829,584,564,477,1041,757,2316,2032,1752,5090,7696,5833,690
+10605,Rural Municipality,Province 1,Bhojpur,Arun Rural Municipality,15846,358,346,373,719,546,1724,1551,1378,3417,4734,3588,422
+10606,Rural Municipality,Province 1,Bhojpur,Pauwa Dunma Rural Municipality,13860,313,303,306,609,458,1415,1264,1112,2895,4149,3145,369
+10607,Rural Municipality,Province 1,Bhojpur,Ramprasad Rai Rural Municipality,16867,381,369,349,718,534,1731,1547,1362,3772,4987,3780,449
+10608,Rural Municipality,Province 1,Bhojpur,Hatuwagadhi Rural Municipality,18354,414,401,345,746,546,1761,1561,1360,3846,5364,4066,488
+10609,Rural Municipality,Province 1,Bhojpur,Aamchowk Rural Municipality,16885,381,369,412,781,597,1938,1754,1569,3597,4769,3615,449
+10701,Municipality ,Province 1,Dhankuta,Mahalaxmi Municipality,25407,588,569,558,1127,843,2749,2465,2180,5719,7490,5677,693
+10702,Municipality ,Province 1,Dhankuta,Pakhribas Municipality,22678,525,508,482,990,736,2362,2108,1854,4869,6954,5271,619
+10703,Rural Municipality,Province 1,Dhankuta,Chhathar Jorpati Rural Municipality,18888,437,423,409,832,621,1944,1733,1521,4277,5895,4468,515
+10704,Municipality ,Province 1,Dhankuta,Dhankuta Municipality,40961,949,918,690,1608,1147,3625,3164,2707,7935,12576,9533,1121
+10705,Rural Municipality,Province 1,Dhankuta,Khalsa Chhintang Sahidbhumi Rural Municipality,19304,447,433,480,913,697,2260,2044,1827,4014,5278,4001,527
+10706,Rural Municipality,Province 1,Dhankuta,Sangurigadhi Rural Municipality,22236,515,498,462,960,711,2194,1945,1696,4740,6652,5042,607
+10707,Rural Municipality,Province 1,Dhankuta,Chaubise Rural Municipality,19847,460,445,475,920,698,2199,1977,1754,4362,6022,4565,542
+10801,Rural Municipality,Province 1,Terhathum,Aatharai Rural Municipality,21615,503,487,449,936,693,2283,2040,1796,4526,6356,4818,593
+10802,Rural Municipality,Province 1,Terhathum,Phedap Rural Municipality,17497,407,394,366,760,563,1765,1568,1371,3944,5222,3958,480
+10803,Rural Municipality,Province 1,Terhathum,Menchhayayem Rural Municipality,8055,187,181,180,361,271,871,781,690,1618,2420,1834,221
+10804,Municipality ,Province 1,Terhathum,Myanglung Municipality,20598,480,464,394,858,624,1979,1745,1515,3925,6180,4686,565
+10805,Municipality ,Province 1,Terhathum,Laligurans Municipality,16918,394,381,390,771,581,1819,1629,1438,3734,5234,3967,465
+10806,Rural Municipality,Province 1,Terhathum,Chhathar Rural Municipality,16559,385,373,343,716,530,1643,1457,1270,3723,5152,3905,454
+10901,Rural Municipality,Province 1,Panchthar,Yangbarak Rural Municipality,18752,431,417,407,824,616,2032,1824,1615,3908,5420,4108,508
+10902,Rural Municipality,Province 1,Panchthar,Hilihan Rural Municipality,23446,538,521,595,1116,856,2673,2413,2152,4900,6914,5241,634
+10903,Rural Municipality,Province 1,Panchthar,Falelung Rural Municipality,22316,512,496,412,908,660,2178,1930,1682,4815,6689,5070,604
+10904,Municipality ,Province 1,Panchthar,Phidim Municipality,51850,1192,1152,986,2138,1559,4981,4402,3829,10741,15688,11891,1406
+10905,Rural Municipality,Province 1,Panchthar,Falgunanda Rural Municipality,24707,567,549,535,1084,810,2566,2292,2017,5212,7310,5541,669
+10906,Rural Municipality,Province 1,Panchthar,Kummayak Rural Municipality,16338,375,363,341,704,523,1635,1454,1272,3571,4847,3674,442
+10907,Rural Municipality,Province 1,Panchthar,Tumbewa Rural Municipality,13564,311,301,315,616,466,1471,1321,1170,3104,4001,3033,367
+10908,Rural Municipality,Province 1,Panchthar,Miklajung Rural Municipality,25065,576,557,539,1096,818,2544,2266,1987,5353,7534,5711,679
+11001,Rural Municipality,Province 1,Ilam,Mai Jogmai Rural Municipality,22180,492,476,444,920,682,2121,1883,1645,4668,6309,4782,580
+11002,Rural Municipality,Province 1,Ilam,Sandakpur Rural Municipality,16891,375,363,326,689,508,1623,1442,1260,3499,4955,3756,442
+11003,Municipality ,Province 1,Ilam,Ilam Municipality,52237,1160,1120,1052,2172,1610,5183,4621,4063,10495,15378,11658,1367
+11004,Municipality ,Province 1,Ilam,Deumai Municipality,34679,769,745,741,1486,1114,3616,3244,2871,7592,10011,7588,907
+11005,Rural Municipality,Province 1,Ilam,Fakfokathum Rural Municipality,22813,506,490,593,1083,838,2669,2424,2179,5230,6511,4935,597
+11006,Rural Municipality,Province 1,Ilam,Mangsebung Rural Municipality,19612,435,421,520,941,731,2343,2133,1922,4521,5205,3945,513
+11007,Rural Municipality,Province 1,Ilam,Chulachuli Rural Municipality,22777,505,489,601,1090,846,2669,2425,2180,4882,6520,4942,596
+11008,Municipality ,Province 1,Ilam,Mai Municipality,35119,779,754,875,1629,1252,4151,3774,3397,7990,9771,7406,919
+11009,Municipality ,Province 1,Ilam,Suryodaya Municipality,59972,1331,1288,992,2280,1636,5175,4531,3887,11877,17810,13500,1570
+11010,Rural Municipality,Province 1,Ilam,Rong Rural Municipality,20101,446,432,391,823,607,1906,1690,1474,4378,5728,4342,526
+11101,Municipality ,Province 1,Jhapa,Mechinagar Municipality,124522,2850,2758,2247,5005,3626,11493,10114,8735,26036,37487,28415,3361
+11102,Rural Municipality,Province 1,Jhapa,Buddhashanti Rural Municipality,45782,1048,1014,750,1764,1257,4001,3494,2987,9943,14028,10633,1236
+11103,Municipality ,Province 1,Jhapa,Arjundhara Municipality,66641,1525,1476,1262,2738,2000,6412,5674,4936,14178,20080,15221,1798
+11104,Municipality ,Province 1,Jhapa,Kankai Municipality,44323,1015,982,1008,1990,1499,4679,4188,3697,9386,13325,10100,1197
+11105,Municipality ,Province 1,Jhapa,Shivasatakshi Municipality,71127,1628,1576,1401,2977,2189,6964,6176,5388,15348,21524,16315,1920
+11106,Rural Municipality,Province 1,Jhapa,Kamal Rural Municipality,49210,1126,1090,996,2086,1541,4835,4290,3745,9997,14711,11151,1328
+11107,Municipality ,Province 1,Jhapa,Damak Municipality,83664,1915,1853,1581,3434,2505,7959,7030,6106,17615,26040,19738,2258
+11108,Municipality ,Province 1,Jhapa,Gauradaha Municipality,58258,1334,1291,1315,2606,1961,6122,5477,4831,11966,16783,12722,1573
+11109,Rural Municipality,Province 1,Jhapa,Gauriganj Rural Municipality,36479,835,808,962,1770,1366,4424,4020,3616,7754,10037,7608,985
+11110,Rural Municipality,Province 1,Jhapa,Jhapa Rural Municipality,38147,873,845,1038,1883,1461,4976,4554,4131,8502,10175,7713,1029
+11111,Rural Municipality,Province 1,Jhapa,Barhadashi Rural Municipality,37023,847,820,923,1743,1333,4225,3815,3405,8203,10786,8176,999
+11112,Municipality ,Province 1,Jhapa,Birtamod Municipality,91132,2086,2019,1852,3871,2862,9055,8046,7036,19773,27389,20761,2460
+11113,Rural Municipality,Province 1,Jhapa,Haldibari Rural Municipality,31915,731,707,739,1446,1093,3485,3132,2778,6629,9590,7269,862
+11114,Municipality ,Province 1,Jhapa,Bhadrapur Municipality,73523,1683,1629,1471,3100,2286,7232,6418,5603,15368,21830,16547,1985
+11115,Rural Municipality,Province 1,Jhapa,Kachanakawal Rural Municipality,43673,1000,967,1342,2309,1826,5874,5391,4907,9356,12128,9193,1179
+11201,Rural Municipality,Province 1,Morang,Miklajung Rural Municipality,31464,703,680,696,1376,1036,3381,3041,2701,6981,9460,7171,829
+11202,Municipality ,Province 1,Morang,Letang Municipality,36014,804,778,733,1511,1122,3600,3211,2822,8019,10848,8223,948
+11203,Rural Municipality,Province 1,Morang,Kerabari Rural Municipality,33913,757,733,697,1430,1064,3430,3064,2697,7690,10017,7593,893
+11204,Municipality ,Province 1,Morang,Sundarharaicha Municipality,88356,1973,1909,1628,3537,2583,8227,7273,6318,19074,27044,20499,2327
+11205,Municipality ,Province 1,Morang,Belbari Municipality,72283,1614,1562,1377,2939,2158,6779,5998,5217,15616,22159,16797,1903
+11206,Rural Municipality,Province 1,Morang,Kanepokhari Rural Municipality,41616,929,899,827,1726,1277,4074,3625,3175,8839,12298,9322,1096
+11207,Municipality ,Province 1,Morang,Pathari Shanishchare Municipality,67164,1500,1451,1317,2768,2043,6555,5830,5104,14463,20589,15606,1769
+11208,Municipality ,Province 1,Morang,Urlabari Municipality,60025,1340,1297,1227,2524,1876,5967,5319,4670,12340,18652,14138,1580
+11209,Municipality ,Province 1,Morang,Ratuwamai Municipality,60742,1356,1312,1534,2846,2190,7025,6369,5713,12328,17036,12913,1599
+11210,Municipality ,Province 1,Morang,Sunwarshi Municipality,55517,1240,1200,1496,2696,2096,6851,6251,5651,11718,14728,11164,1462
+11211,Municipality ,Province 1,Morang,Rangeli Municipality,56956,1272,1231,1372,2603,1988,6300,5685,5069,11961,15746,11935,1500
+11212,Rural Municipality,Province 1,Morang,Gramthan Rural Municipality,35906,802,776,655,1431,1043,3150,2762,2374,7129,11252,8529,946
+11213,Rural Municipality,Province 1,Morang,Budhiganga Rural Municipality,46154,1031,997,936,1933,1435,4607,4109,3610,9565,13480,10218,1216
+11214,Metropolitan City,Province 1,Morang,Biratnagar Metropolitan City,240505,5368,5197,4449,9646,7040,22218,19612,17021,50498,68781,52137,6330
+11215,Rural Municipality,Province 1,Morang,Katahari Rural Municipality,43559,973,941,1106,2047,1577,5089,4619,4148,9475,11868,8996,1147
+11216,Rural Municipality,Province 1,Morang,Dhanapalthan Rural Municipality,43056,961,930,1110,2040,1575,5233,4768,4303,9466,11342,8597,1133
+11217,Rural Municipality,Province 1,Morang,Jahada Rural Municipality,45755,1022,989,1381,2370,1876,6196,5702,5207,9894,11462,8688,1205
+11301,Sub-Metropolitan City,Province 1,Sunsari,Dharan Sub-Metropolitan City,162743,3615,3497,2161,5658,3908,12167,10417,8670,34139,51632,39137,4264
+11302,Municipality ,Province 1,Sunsari,Baraha Municipality,88751,1971,1908,1777,3685,2731,8696,7742,6788,19533,25695,19477,2324
+11303,Rural Municipality,Province 1,Sunsari,Koshi Rural Municipality,49735,1105,1069,1654,2723,2189,7327,6793,6258,10811,12033,9121,1303
+11304,Rural Municipality,Province 1,Sunsari,Bhokraha Rural Municipality,45766,1016,984,1462,2446,1954,6729,6237,5745,9886,11424,8659,1198
+11305,Municipality ,Province 1,Sunsari,Ramdhuni Municipality,60074,1334,1291,1046,2337,1692,5179,4534,3888,13029,18422,13964,1573
+11306,Sub-Metropolitan City,Province 1,Sunsari,Itahari Sub-Metropolitan City,164609,3656,3538,2919,6457,4688,14627,12858,11089,33993,51293,38880,4311
+11307,Municipality ,Province 1,Sunsari,Duhabi Municipality,64553,1434,1388,1401,2789,2095,6782,6088,5394,13106,18634,14125,1691
+11308,Rural Municipality,Province 1,Sunsari,Gadhi Rural Municipality,39736,883,854,890,1744,1317,4255,3828,3401,8025,11315,8577,1041
+11309,Municipality ,Province 1,Sunsari,Inaruwa Municipality,73671,1636,1584,1650,3234,2442,7697,6905,6113,16410,20249,15349,1929
+11310,Rural Municipality,Province 1,Sunsari,Harinagara Rural Municipality,46347,1029,996,1603,2599,2101,6972,6474,5976,10364,11174,8470,1213
+11311,Rural Municipality,Province 1,Sunsari,Dewangunj Rural Municipality,40107,891,862,1139,2001,1570,5094,4663,4232,8392,9668,7328,1051
+11312,Rural Municipality,Province 1,Sunsari,Barju Rural Municipality,35575,790,765,887,1652,1270,3966,3584,3201,7612,9628,7298,932
+11401,Municipality ,Province 1,Udayapur,Belaka Municipality,46219,1071,1037,870,1907,1389,4432,3914,3395,9945,14051,10651,1263
+11402,Municipality ,Province 1,Udayapur,Chaudandigadhi Municipality,53198,1233,1193,989,2182,1586,5066,4470,3873,11053,16519,12521,1454
+11403,Municipality ,Province 1,Udayapur,Triyuga Municipality,98012,2273,2199,1816,4015,2913,9076,7974,6877,20126,30650,23232,2680
+11404,Rural Municipality,Province 1,Udayapur,Rautamai Rural Municipality,25307,587,568,606,1174,890,2931,2647,2363,5468,7199,5457,692
+11405,Rural Municipality,Province 1,Udayapur,Sunkoshi Rural Municipality,12808,297,287,312,599,456,1459,1316,1172,2976,3514,2664,350
+11406,Rural Municipality,Province 1,Udayapur,Tapli Rural Municipality,15627,362,351,373,724,549,1818,1643,1467,3419,4245,3218,427
+11407,Municipality ,Province 1,Udayapur,Katari Municipality,61576,1427,1381,1448,2829,2139,6797,6107,5416,13059,18200,13796,1683
+11408,Rural Municipality,Province 1,Udayapur,Udayapurgadhi Rural Municipality,33142,768,743,848,1591,1220,3826,3455,3083,7323,9643,7309,906
+20101,Municipality ,Province 2,Saptari,Saptakoshi Municipality,23246,513,497,497,994,746,2204,1956,1707,5249,7218,5471,605
+20102,Municipality ,Province 2,Saptari,Kanchanrup Municipality,57945,1279,1238,1266,2504,1885,5851,5232,4613,12618,17040,12916,1508
+20103,Rural Municipality,Province 2,Saptari,Agnisair Krishna Sabaran Rural Municipality,29488,651,630,587,1217,902,2847,2532,2217,6362,9049,6859,768
+20104,Rural Municipality,Province 2,Saptari,Rupani Rural Municipality,28482,629,608,648,1256,952,3094,2790,2486,5920,8094,6135,742
+20105,Municipality ,Province 2,Saptari,Shambhunath Municipality,38006,839,812,752,1564,1158,3684,3278,2872,8305,11336,8593,989
+20106,Municipality ,Province 2,Saptari,Khadak Municipality,48984,1081,1046,1070,2116,1593,5006,4483,3960,11160,14781,11204,1275
+20107,Municipality ,Province 2,Saptari,Surunga Municipality,47938,1058,1024,920,1944,1432,4469,3957,3445,10691,14596,11064,1248
+20108,Rural Municipality,Province 2,Saptari,Balan-Bihul Rural Municipality,23585,521,504,535,1039,787,2651,2399,2147,4524,6229,4722,614
+20109,Municipality ,Province 2,Saptari,BodeBarsain Municipality,46544,1027,994,1042,2036,1539,5061,4564,4067,9749,12783,9690,1211
+20110,Municipality ,Province 2,Saptari,Dakneshwori Municipality,45912,1013,981,1005,1986,1496,4963,4473,3982,9412,12716,9639,1195
+20111,Rural Municipality,Province 2,Saptari,Belhi Chapena Rural Municipality,31758,701,678,671,1349,1010,3370,3031,2692,6616,8749,6632,827
+20112,Rural Municipality,Province 2,Saptari,Bishnupur Rural Municipality,25028,552,535,609,1144,877,2808,2541,2273,5180,6971,5284,651
+20113,Municipality ,Province 2,Saptari,Rajbiraj Municipality,75448,1665,1610,1278,2888,2081,6491,5684,4881,16994,22093,16746,1962
+20114,Rural Municipality,Province 2,Saptari,Mahadewa Rural Municipality,30754,679,657,728,1385,1057,3495,3167,2838,6284,8458,6411,801
+20115,Rural Municipality,Province 2,Saptari,Tirahut Rural Municipality,23960,529,512,475,987,731,2350,2094,1838,4737,6815,5166,624
+20116,Municipality ,Province 2,Saptari,Hanumannagar Kankalini Municipality,49441,1091,1056,1246,2302,1774,5729,5201,4673,10299,13574,10289,1287
+20117,Rural Municipality,Province 2,Saptari,Tilathi Koiladi Rural Municipality,34574,763,738,766,1504,1135,3608,3239,2870,6721,9269,7026,900
+20118,Rural Municipality,Province 2,Saptari,Chhinnamasta Rural Municipality,30691,677,656,690,1346,1018,3371,3043,2715,6284,8313,6301,798
+20201,Municipality ,Province 2,Siraha,Lahan Municipality,99970,2248,2178,1778,3956,2863,9111,8018,6933,22220,29592,22432,2652
+20202,Municipality ,Province 2,Siraha,Dhangadhimai Municipality,51581,1160,1123,961,2084,1523,4796,4235,3673,11343,15201,11522,1368
+20203,Municipality ,Province 2,Siraha,Golbazar Municipality,56336,1267,1226,1095,2321,1708,5401,4788,4175,12572,17082,12948,1494
+20204,Municipality ,Province 2,Siraha,Mirchaiya Municipality,52900,1190,1151,1052,2203,1628,5134,4559,3983,11259,15285,11586,1403
+20205,Municipality ,Province 2,Siraha,Karjanha Municipality,33832,761,736,747,1483,1115,3494,3126,2758,7286,10059,7625,897
+20206,Municipality ,Province 2,Siraha,Kalyanpur Municipality,52719,1186,1147,1405,2552,1979,6116,5543,4969,11099,15738,11929,1399
+20207,Rural Municipality,Province 2,Siraha,Naraha Rural Municipality,20771,467,452,485,937,711,2277,2051,1825,4475,6032,4572,551
+20208,Rural Municipality,Province 2,Siraha,Bishnupur Rural Municipality,19895,447,433,524,957,741,2342,2126,1909,4101,5801,4397,527
+20209,Rural Municipality,Province 2,Siraha,Arnama Rural Municipality,24423,549,532,617,1149,883,2910,2644,2378,5187,7063,5354,647
+20210,Municipality ,Province 2,Siraha,Sukhipur Municipality,39851,896,867,812,1679,1246,3991,3558,3124,8212,11413,8651,1057
+20211,Rural Municipality,Province 2,Siraha,Laxmipur Patari Rural Municipality,30059,676,654,718,1372,1045,3311,2984,2657,6328,8433,6392,797
+20212,Rural Municipality,Province 2,Siraha,Sakhuwa Nankarkatti Rural Municipality,19999,450,435,405,840,623,2059,1842,1624,3985,5848,4433,531
+20213,Rural Municipality,Province 2,Siraha,Bhagawanpur Rural Municipality,22572,508,491,446,937,692,2302,2057,1811,4595,6244,4733,599
+20214,Rural Municipality,Province 2,Siraha,Nawarajpur Rural Municipality,20472,460,446,391,837,614,2087,1864,1641,3963,5812,4405,542
+20215,Rural Municipality,Province 2,Siraha,Bariyarpatti Rural Municipality,27116,610,590,591,1181,886,2930,2635,2340,5421,7345,5568,719
+20216,Rural Municipality,Province 2,Siraha,Aurahi Rural Municipality,24581,553,535,517,1052,785,2556,2289,2021,5000,6987,5296,652
+20217,Municipality ,Province 2,Siraha,Siraha Municipality,89095,2004,1939,2025,3964,2995,9569,8600,7630,18729,26269,19912,2363
+20301,Municipality ,Province 2,Dhunasa,Ganeshman Charnath Municipality,39301,848,821,921,1742,1332,4168,3758,3347,8766,11466,8691,1000
+20302,Municipality ,Province 2,Dhunasa,Dhanushadham Municipality,49094,1059,1025,1112,2137,1625,5274,4762,4249,10609,14087,10678,1249
+20303,Municipality ,Province 2,Dhunasa,Mithila Municipality,49720,1073,1038,925,1963,1444,4557,4038,3519,10820,14113,10698,1265
+20304,Rural Municipality,Province 2,Dhunasa,Bateshwor Rural Municipality,23591,509,493,519,1012,766,2392,2146,1899,4937,6276,4757,600
+20305,Municipality ,Province 2,Dhunasa,Chhireshwornath Municipality,45725,987,955,990,1945,1468,4731,4254,3776,9804,12899,9777,1164
+20306,Rural Municipality,Province 2,Dhunasa,Laxminiya Rural Municipality,30748,664,642,580,1222,901,2971,2650,2329,6450,8626,6539,783
+20307,Municipality ,Province 2,Dhunasa,Mithila Bihari Municipality,36403,786,760,830,1590,1210,3905,3525,3145,7513,10044,7613,927
+20308,Municipality ,Province 2,Dhunasa,Hansapur Municipality,41077,886,858,906,1764,1335,4395,3966,3537,8749,11561,8763,1045
+20309,Municipality ,Province 2,Dhunasa,Sabaila Municipality,56279,1214,1175,1351,2526,1939,6134,5547,4959,11966,15737,11929,1432
+20310,Municipality ,Province 2,Dhunasa,Shahidnagar Municipality,51166,1104,1069,1260,2329,1795,5727,5193,4658,10782,14180,10748,1302
+20311,Municipality ,Province 2,Dhunasa,Kamala Municipality,41597,898,869,1054,1923,1489,4811,4377,3942,8588,11447,8677,1059
+20312,Rural Municipality,Province 2,Dhunasa,Janak Nandini Rural Municipality,27367,591,572,708,1280,994,3227,2941,2655,5757,7657,5804,697
+20313,Municipality ,Province 2,Dhunasa,Bideha Municipality,35032,756,732,802,1534,1168,3777,3411,3045,7113,9774,7409,892
+20314,Rural Municipality,Province 2,Dhunasa,Aurahi Rural Municipality,24464,528,511,527,1038,783,2553,2298,2042,5000,6615,5014,623
+20315,Sub-Metropolitan City,Province 2,Dhunasa,Janakpur Sub-Metropolitan City,177945,3839,3714,3072,6786,4925,15792,13931,12078,39407,50955,38625,4526
+20316,Rural Municipality,Province 2,Dhunasa,Dhanauji Rural Municipality,23156,500,484,485,969,727,2341,2099,1857,4793,6296,4772,590
+20317,Municipality ,Province 2,Dhunasa,Nagarain Municipality,38586,833,806,910,1716,1313,4314,3911,3508,7618,10429,7905,982
+20318,Rural Municipality,Province 2,Dhunasa,Mukhiyapatti Musaharmiya Rural Municipality,27503,593,574,685,1259,972,3152,2865,2578,5628,7058,5350,699
+20401,Municipality ,Province 2,Mohattari,Bardibas Municipality,72615,1599,1548,1177,2725,1951,5950,5176,4402,16634,22373,16959,1886
+20402,Municipality ,Province 2,Mohattari,Gaushala Municipality,73386,1616,1564,1490,3054,2272,7254,6472,5690,16359,20924,15860,1906
+20403,Rural Municipality,Province 2,Mohattari,Sonama Rural Municipality,42187,929,899,1052,1951,1502,4889,4440,3990,8507,11082,8400,1096
+20404,Municipality ,Province 2,Mohattari,Aurahi Municipality,34415,758,733,792,1525,1159,3803,3437,3070,7080,9524,7219,894
+20405,Municipality ,Province 2,Mohattari,Bhangaha Municipality,50964,1122,1086,1123,2209,1666,5329,4786,4243,11195,15617,11838,1323
+20406,Municipality ,Province 2,Mohattari,Loharpatti Municipality,43544,959,928,1191,2119,1655,5168,4704,4240,9117,12936,9805,1131
+20407,Municipality ,Province 2,Mohattari,Balawa Municipality,46051,1014,981,1038,2019,1529,4935,4445,3954,9718,13016,9866,1196
+20408,Municipality ,Province 2,Mohattari,Ram Gopalpur Municipality,32716,720,697,846,1543,1195,3928,3580,3231,7013,9013,6832,849
+20409,Rural Municipality,Province 2,Mohattari,Samsi Rural Municipality,36613,806,780,895,1675,1285,4296,3906,3516,7794,9816,7441,950
+20410,Municipality ,Province 2,Mohattari,Manara Shisawa Municipality,54459,1199,1161,1078,2239,1659,5345,4765,4184,11398,15293,11592,1414
+20411,Rural Municipality,Province 2,Mohattari,Ekadara Rural Municipality,31788,700,677,657,1334,996,3330,2992,2653,6827,8605,6523,825
+20412,Rural Municipality,Province 2,Mohattari,Mahottari Rural Municipality,30095,663,641,539,1180,860,2785,2465,2144,6075,8591,6512,782
+20413,Rural Municipality,Province 2,Mohattari,Pipara Rural Municipality,39328,866,838,745,1583,1164,3606,3187,2768,8327,11380,8626,1021
+20414,Municipality ,Province 2,Mohattari,Matihani Municipality,33727,743,719,789,1508,1149,3796,3437,3077,6974,9690,7345,876
+20415,Municipality ,Province 2,Mohattari,Jaleshwor Municipality,65633,1446,1400,1294,2694,1990,6212,5508,4812,13198,18561,14069,1705
+20501,Municipality ,Province 2,Sarlahi,Lalbandi Municipality,67787,1433,1387,1104,2491,1798,5490,4797,4103,15926,20844,15800,1690
+20502,Municipality ,Province 2,Sarlahi,Hariwan Municipality,49921,1055,1021,755,1776,1266,3892,3382,2871,11817,15314,11608,1244
+20503,Municipality ,Province 2,Sarlahi,Bagmati Municipality,45896,970,939,720,1659,1190,3662,3193,2723,10791,14073,10667,1144
+20504,Municipality ,Province 2,Sarlahi,Barahathawa Municipality,78317,1655,1602,1855,3457,2656,8379,7578,6777,17037,21822,16541,1952
+20505,Municipality ,Province 2,Sarlahi,Haripur Municipality,41847,885,856,944,1800,1372,4402,3974,3546,9370,12071,9150,1044
+20506,Municipality ,Province 2,Sarlahi,Ishworpur Municipality,67214,1421,1375,1346,2721,2034,6486,5799,5111,14725,19407,14711,1676
+20507,Municipality ,Province 2,Sarlahi,Haripurwa Municipality,39939,844,817,941,1758,1350,4490,4082,3673,7799,10408,7889,995
+20508,Rural Municipality,Province 2,Sarlahi,Parsa Rural Municipality,23964,507,490,553,1043,798,2684,2439,2194,4699,6041,4579,598
+20509,Rural Municipality,Province 2,Sarlahi,Brahmapuri Rural Municipality,32991,697,675,812,1487,1150,3757,3420,3082,6809,8672,6573,822
+20510,Rural Municipality,Province 2,Sarlahi,Chandranagar Rural Municipality,37070,784,758,889,1647,1268,4175,3796,3417,7814,9693,7347,925
+20511,Municipality ,Province 2,Sarlahi,Kabilashi Municipality,46937,992,960,1070,2030,1550,5112,4632,4152,9527,12230,9270,1170
+20512,Rural Municipality,Province 2,Sarlahi,Chakraghatta Rural Municipality,30957,654,633,738,1371,1055,3479,3163,2846,6196,7900,5988,771
+20513,Rural Municipality,Province 2,Sarlahi,Basbariya Rural Municipality,26220,554,536,665,1201,933,3043,2775,2507,5241,6931,5254,653
+20514,Rural Municipality,Province 2,Sarlahi,Dhanakaul Rural Municipality,27468,581,562,719,1281,1000,3260,2979,2698,5515,7169,5434,685
+20515,Rural Municipality,Province 2,Sarlahi,Ramnagar Rural Municipality,32048,677,656,767,1423,1095,3596,3268,2940,6341,8164,6188,798
+20516,Municipality ,Province 2,Sarlahi,Balara Municipality,50705,1072,1037,1130,2167,1649,5309,4791,4272,10262,12995,9850,1264
+20517,Municipality ,Province 2,Sarlahi,Godaita Municipality,52978,1120,1084,1284,2368,1826,5914,5372,4830,10727,13430,10180,1321
+20518,Rural Municipality,Province 2,Sarlahi,Bishnu Rural Municipality,27484,581,562,577,1139,858,2871,2590,2309,5500,6952,5270,685
+20519,Rural Municipality,Province 2,Sarlahi,Kaudena Rural Municipality,28942,612,592,659,1251,955,3179,2883,2587,5767,7584,5749,722
+20520,Municipality ,Province 2,Sarlahi,Malangawa Municipality,51806,1094,1059,1138,2197,1662,5454,4919,4395,11504,14259,10807,1288
+20601,Municipality ,Province 2,Rautahat,Chandrapur Municipality,86817,1804,1746,1257,3003,2130,6452,5579,4706,19722,27032,20490,2127
+20602,Municipality ,Province 2,Rautahat,Gujara Municipality,54681,1136,1099,1045,2144,1595,5138,4589,4039,12493,15712,11910,1340
+20603,Municipality ,Province 2,Rautahat,Phatuwa Bijayapur Municipality,42355,880,852,865,1717,1291,4142,3716,3290,9281,11544,8750,1038
+20604,Municipality ,Province 2,Rautahat,Katahariya Municipality,44395,922,893,1025,1918,1472,4850,4404,3957,9334,11469,8694,1087
+20605,Municipality ,Province 2,Rautahat,Brindaban Municipality,49661,1032,998,1136,2134,1635,5232,4733,4234,10671,13554,10274,1217
+20606,Municipality ,Province 2,Rautahat,Gadhimai Municipality,47087,978,947,1096,2043,1570,5069,4596,4122,9843,12515,9486,1153
+20607,Municipality ,Province 2,Rautahat,Madhav Narayan Municipality,40749,847,819,833,1652,1243,4113,3704,3294,8594,10491,7952,999
+20608,Municipality ,Province 2,Rautahat,Garuda Municipality,58273,1211,1172,1212,2384,1798,6016,5430,4844,12395,15143,11478,1428
+20609,Municipality ,Province 2,Rautahat,Dewahi Gonahi Municipality,37063,770,745,868,1613,1241,4022,3650,3277,7786,9547,7237,908
+20610,Municipality ,Province 2,Rautahat,Maulapur Municipality,30456,633,612,760,1372,1066,3558,3252,2946,5983,7823,5930,746
+20611,Municipality ,Province 2,Rautahat,Boudhimai Municipality,38407,798,772,967,1739,1353,4397,4011,3625,7744,9648,7313,941
+20612,Municipality ,Province 2,Rautahat,Paroha Municipality,43294,899,870,1153,2023,1588,5130,4695,4260,8937,11217,8502,1060
+20613,Municipality ,Province 2,Rautahat,Rajpur Municipality,46800,972,941,1330,2271,1801,5962,5492,5021,9952,12352,9363,1146
+20614,Rural Municipality,Province 2,Rautahat,Yamunamai Rural Municipality,27548,572,554,652,1206,929,3100,2823,2546,5676,7253,5498,675
+20615,Rural Municipality,Province 2,Rautahat,Durga Bhagawati Rural Municipality,26651,554,536,582,1118,850,2693,2425,2157,5591,6984,5294,653
+20616,Municipality ,Province 2,Rautahat,Rajdevi Municipality,35722,742,718,824,1542,1183,3770,3411,3052,7368,9147,6933,875
+20617,Municipality ,Province 2,Rautahat,Gaur Municipality,41570,864,836,696,1532,1111,3559,3138,2723,8998,11226,8510,1020
+20618,Municipality ,Province 2,Rautahat,Ishanath Municipality,48028,998,966,1140,2106,1623,5244,4761,4278,10152,12865,9752,1177
+20701,Municipality ,Province 2,Bara,Nijagadh Municipality,41840,871,843,627,1470,1049,3094,2673,2251,9630,12809,9709,1027
+20702,Municipality ,Province 2,Bara,Kolhabi Municipality,51487,1071,1037,819,1856,1338,4154,3636,3117,11656,15571,11803,1263
+20703,Sub-Metropolitan City,Province 2,Bara,Jitpur Simara Sub-Metropolitan City,137916,2870,2777,2403,5180,3792,11847,10459,9070,31078,40804,30929,3384
+20704,Rural Municipality,Province 2,Bara,Parawanipur Rural Municipality,26001,541,524,631,1155,893,2900,2638,2376,5664,6894,5226,638
+20705,Rural Municipality,Province 2,Bara,Prasauni Rural Municipality,28548,594,575,623,1198,911,3000,2713,2425,6248,7591,5754,700
+20706,Rural Municipality,Province 2,Bara,Bishrampur Rural Municipality,27054,563,545,722,1267,995,3315,3043,2770,5414,6709,5085,664
+20707,Rural Municipality,Province 2,Bara,Pheta Rural Municipality,29077,605,586,791,1377,1084,3492,3199,2906,6252,7398,5608,713
+20708,Sub-Metropolitan City,Province 2,Bara,Kalaiya Sub-Metropolitan City,141004,2934,2838,3183,6021,4598,14971,13548,12133,30453,37333,28299,3461
+20709,Rural Municipality,Province 2,Bara,Karaiyamai Rural Municipality,30564,636,615,633,1248,941,2993,2686,2378,6572,8359,6336,750
+20710,Rural Municipality,Province 2,Bara,Baragadhi Rural Municipality,31328,652,631,654,1285,970,3092,2777,2461,6794,8374,6347,769
+20711,Rural Municipality,Province 2,Bara,Aadarsha Kotwal Rural Municipality,31229,650,629,847,1476,1162,3838,3524,3209,6123,7726,5856,767
+20712,Municipality ,Province 2,Bara,Simroungadh Municipality,55212,1149,1112,1294,2406,1850,6196,5640,5084,10868,13810,10468,1355
+20713,Municipality ,Province 2,Bara,Pacharauta Municipality,38732,806,780,954,1734,1344,4580,4190,3800,7679,9633,7302,950
+20714,Municipality ,Province 2,Bara,Mahagadhimai Municipality,59848,1245,1205,1515,2720,2118,6893,6291,5688,12083,15289,11589,1468
+20715,Rural Municipality,Province 2,Bara,Devtal Rural Municipality,26535,552,534,652,1186,919,3013,2746,2479,5351,6547,4963,651
+20716,Rural Municipality,Province 2,Bara,Subarna Rural Municipality,33467,696,674,873,1547,1210,4060,3723,3386,6572,8372,6346,821
+20801,Rural Municipality,Province 2,Parsa,Thori Rural Municipality,24173,492,476,351,827,589,1732,1494,1256,5502,7261,5504,580
+20802,Rural Municipality,Province 2,Parsa,Jirabhawani Rural Municipality,25996,529,512,607,1119,863,2711,2455,2199,5245,7255,5499,624
+20803,Rural Municipality,Province 2,Parsa,Jagarnathpur Rural Municipality,36830,749,725,977,1702,1340,4367,4005,3642,7254,9190,6966,883
+20804,Rural Municipality,Province 2,Parsa,Paterwa Sugauli Rural Municipality,27183,553,535,585,1120,853,2811,2544,2276,5520,7312,5542,652
+20805,Rural Municipality,Province 2,Parsa,Sakhuwa Prasauni Rural Municipality,37394,761,736,886,1622,1254,4097,3729,3361,8071,10027,7600,897
+20806,Municipality ,Province 2,Parsa,Parsagadhi Municipality,44077,896,868,1049,1917,1483,4796,4362,3928,9465,12050,9134,1057
+20807,Metropolitan City,Province 2,Parsa,Birgunj Metropolitan City,275454,5602,5421,5179,10600,7887,25459,22746,20038,62662,74929,56798,6606
+20808,Municipality ,Province 2,Parsa,Bahudarmai Municipality,44691,909,880,1159,2039,1599,5269,4829,4389,9044,11048,8374,1072
+20809,Municipality ,Province 2,Parsa,Pokhariya Municipality,39971,813,787,1029,1816,1423,4671,4278,3884,7888,9961,7550,959
+20810,Rural Municipality,Province 2,Parsa,Kalikamai Rural Municipality,23930,487,471,572,1043,808,2702,2467,2231,4719,5827,4417,574
+20811,Rural Municipality,Province 2,Parsa,Dhobini Rural Municipality,22551,459,444,618,1062,840,2683,2461,2239,4379,5545,4203,541
+20812,Rural Municipality,Province 2,Parsa,Chhipaharmai Rural Municipality,30147,613,593,766,1359,1063,3505,3209,2912,5991,7550,5723,723
+20813,Rural Municipality,Province 2,Parsa,Pakaha Mainpur Rural Municipality,23504,478,463,530,993,762,2560,2329,2097,4608,5609,4252,564
+20814,Rural Municipality,Province 2,Parsa,Bindabasini Rural Municipality,27655,562,544,704,1248,976,3217,2945,2673,5576,6814,5165,663
+30101,Rural Municipality,Province 3,Dolakha,Gaurishankar Rural Municipality,17241,400,388,417,805,611,1939,1745,1551,3555,4825,3657,472
+30102,Rural Municipality,Province 3,Dolakha,Bigu Rural Municipality,18576,431,418,416,834,625,2051,1842,1633,3881,5066,3840,508
+30103,Rural Municipality,Province 3,Dolakha,Kalinchowk Rural Municipality,23085,536,519,553,1072,813,2608,2349,2089,4955,6584,4991,632
+30104,Rural Municipality,Province 3,Dolakha,Baitedhar Rural Municipality,19926,463,448,373,821,597,1903,1679,1455,4121,6247,4735,546
+30105,Municipality ,Province 3,Dolakha,Jiri Municipality,15940,370,358,292,650,471,1534,1355,1176,3602,5018,3804,436
+30106,Rural Municipality,Province 3,Dolakha,Tamakoshi Rural Municipality,18860,438,424,385,809,597,1928,1716,1504,4152,5702,4322,517
+30107,Rural Municipality,Province 3,Dolakha,Melung Rural Municipality,20061,466,451,435,886,661,2083,1858,1632,4457,6149,4661,550
+30108,Rural Municipality,Province 3,Dolakha,Shailung Rural Municipality,19550,454,440,456,896,676,2094,1874,1654,4255,6090,4616,535
+30109,Municipality ,Province 3,Dolakha,Bhimeshwor Municipality,34167,795,767,606,1373,989,3041,2657,2274,6769,10796,8184,937
+30201,Rural Municipality,Province 3,Sindhupalchok,Bhotekoshi Rural Municipality,17511,392,379,361,740,551,1776,1587,1397,3230,4914,3725,462
+30202,Rural Municipality,Province 3,Sindhupalchok,Jugal Rural Municipality,19398,434,420,468,888,678,2313,2103,1893,4140,4918,3728,512
+30203,Rural Municipality,Province 3,Sindhupalchok,Panchpokhari Thangpal Rural Municipality,21248,476,460,448,908,678,2232,2002,1772,4276,5406,4098,561
+30204,Rural Municipality,Province 3,Sindhupalchok,Helambu Rural Municipality,18122,406,393,370,763,567,1785,1589,1392,3767,4874,3694,479
+30205,Municipality ,Province 3,Sindhupalchok,Melanchi Municipality,46619,1044,1010,976,1986,1481,4803,4298,3793,9880,13795,10457,1231
+30206,Rural Municipality,Province 3,Sindhupalchok,Indrawoti Rural Municipality,29000,649,628,729,1357,1043,3280,2966,2652,6401,8643,6551,765
+30207,Municipality ,Province 3,Sindhupalchok,Choutara Sangachowkgadhi Municipality,48097,1077,1045,1073,2118,1594,5036,4512,3991,10477,14927,11315,1271
+30208,Rural Municipality,Province 3,Sindhupalchok,Balephi Rural Municipality,19440,435,421,387,808,598,1878,1668,1457,4178,5649,4282,513
+30209,Municipality ,Province 3,Sindhupalchok,Bahrabise Municipality,27605,618,598,559,1157,858,2767,2468,2169,5899,8038,6093,729
+30210,Rural Municipality,Province 3,Sindhupalchok,Tripurasundari Rural Municipality,13396,300,290,289,579,434,1370,1225,1080,2799,3966,3006,354
+30211,Rural Municipality,Province 3,Sindhupalchok,Lisankhu Pakhar Rural Municipality,15241,341,330,229,559,394,1197,1032,867,3559,4543,3444,402
+30212,Rural Municipality,Province 3,Sindhupalchok,Sunkoshi Rural Municipality,17503,392,379,345,724,535,1646,1457,1267,3693,5486,4158,462
+30301,Rural Municipality,Province 3,Rasuwa,Gosaikunda Rural Municipality,8504,187,182,149,331,240,742,651,560,1538,2211,1675,220
+30302,Rural Municipality,Province 3,Rasuwa,Parbatikunda Rural Municipality,5694,126,122,161,283,222,711,650,589,1078,1488,1128,149
+30303,Rural Municipality,Province 3,Rasuwa,Uttargaya Rural Municipality,8551,189,182,164,346,255,809,718,627,1975,2715,2058,223
+30304,Rural Municipality,Province 3,Rasuwa,Kalika Rural Municipality,9847,217,210,168,378,273,874,769,664,2245,3080,2335,256
+30305,Rural Municipality,Province 3,Rasuwa,Naukunda Rural Municipality,12061,266,257,311,568,440,1450,1322,1193,2661,3286,2491,314
+30401,Rural Municipality,Province 3,Dhading,Rubi Valley Rural Municipality,9858,227,219,312,531,422,1315,1206,1096,1853,2731,2070,268
+30402,Rural Municipality,Province 3,Dhading,Khaniyabas Rural Municipality,12993,299,289,360,649,505,1611,1467,1322,2753,3585,2717,353
+30403,Rural Municipality,Province 3,Dhading,Ganga Jamuna Rural Municipality,22324,513,497,487,984,736,2228,1980,1731,4983,7059,5351,605
+30404,Rural Municipality,Province 3,Dhading,Tripurasundari Rural Municipality,23661,544,526,472,998,735,2255,1992,1729,5269,7737,5865,642
+30405,Rural Municipality,Province 3,Dhading,Netrawati Rural Municipality,13100,301,291,254,545,400,1204,1059,913,2934,4141,3139,355
+30406,Municipality ,Province 3,Dhading,Nilkhantha Municipality,61149,1406,1360,1224,2584,1904,6108,5428,4748,13103,19417,14718,1658
+30407,Rural Municipality,Province 3,Dhading,Jwalamukhi Rural Municipality,24481,563,545,521,1066,794,2511,2239,1966,5228,7747,5872,664
+30408,Rural Municipality,Province 3,Dhading,Siddhalek Rural Municipality,24499,563,545,497,1042,770,2466,2194,1921,5420,7525,5704,664
+30409,Rural Municipality,Province 3,Dhading,Benighat Rorang Rural Municipality,33049,760,735,898,1633,1266,4152,3785,3417,6847,8790,6663,896
+30410,Rural Municipality,Province 3,Dhading,Gajuri Rural Municipality,29418,676,655,691,1346,1019,3339,3012,2684,6000,7858,5956,797
+30411,Rural Municipality,Province 3,Dhading,Galchhi Rural Municipality,27483,632,611,500,1111,806,2600,2295,1989,5964,7768,5888,745
+30412,Rural Municipality,Province 3,Dhading,Thakre Rural Municipality,34738,799,773,627,1400,1014,3282,2896,2509,7349,10050,7618,942
+30413,Municipality ,Province 3,Dhading,Dhunibenshi Municipality,33074,759,737,524,1261,888,2758,2385,2021,6531,9927,7525,894
+30501,Rural Municipality,Province 3,Nuwakot,Dupcheshwor Rural Municipality,22851,514,497,647,1144,896,3003,2755,2506,4522,5658,4289,606
+30502,Rural Municipality,Province 3,Nuwakot,Tadi Rural Municipality,18304,411,398,376,774,575,1832,1633,1434,3949,4866,3688,485
+30503,Rural Municipality,Province 3,Nuwakot,Suryagadhi Rural Municipality,17204,387,374,377,751,564,1865,1678,1491,3613,4745,3597,456
+30504,Municipality ,Province 3,Nuwakot,Bidur Municipality,57756,1298,1256,1094,2350,1719,5439,4808,4183,11841,18321,13886,1530
+30505,Rural Municipality,Province 3,Nuwakot,Kispang Rural Municipality,15129,340,329,336,665,501,1608,1444,1279,3225,4336,3287,401
+30506,Rural Municipality,Province 3,Nuwakot,Meghang Rural Municipality,13816,311,301,360,661,511,1559,1409,1258,2847,4194,3179,367
+30507,Rural Municipality,Province 3,Nuwakot,Tarakeshwor Rural Municipality,15890,357,346,378,724,551,1775,1602,1429,3436,4696,3560,421
+30508,Municipality ,Province 3,Nuwakot,Belkotgadhi Municipality,41913,942,912,891,1803,1347,4381,3925,3469,9281,12131,9195,1111
+30509,Rural Municipality,Province 3,Nuwakot,Likhu Rural Municipality,17521,394,381,357,738,548,1661,1471,1280,3635,5491,4162,465
+30510,Rural Municipality,Province 3,Nuwakot,Panchakanya Rural Municipality,16340,367,355,314,669,492,1553,1376,1198,3620,4750,3601,433
+30511,Rural Municipality,Province 3,Nuwakot,Shivapuri Rural Municipality,21040,473,458,426,884,655,2045,1816,1587,4731,6018,4562,558
+30512,Rural Municipality,Province 3,Nuwakot,Kakani Rural Municipality,27531,619,599,502,1101,802,2544,2245,1945,5910,7999,6063,730
+30601,Municipality ,Province 3,Kathmandu,Shankharapur Municipality,32347,657,643,787,1430,1109,3499,3178,2856,7197,7794,5908,775
+30602,Municipality ,Province 3,Kathmandu,Kageshwori Manahara Municipality,74218,1509,1476,1901,3377,2639,8521,7783,7045,16075,19612,14866,1779
+30603,Municipality ,Province 3,Kathmandu,Gokarneshwor Municipality,133546,2715,2657,3628,6285,4957,16208,14880,13551,32193,36005,27292,3202
+30604,Municipality ,Province 3,Kathmandu,Budhanilkhantha Municipality,135943,2763,2704,3217,5921,4569,14741,13389,12037,31162,36443,27624,3258
+30605,Municipality ,Province 3,Kathmandu,Tokha Municipality,121253,2465,2412,2939,5351,4145,13906,12700,11494,27907,32700,24787,2907
+30606,Municipality ,Province 3,Kathmandu,Tarakeshwor Municipality,99362,2020,1977,2661,4638,3650,11835,10847,9858,22427,26381,19997,2382
+30607,Municipality ,Province 3,Kathmandu,Nagarjun Municipality,82967,1686,1651,2022,3673,2848,9228,8403,7577,17216,22262,16875,1988
+30608,Metropolitan City,Province 3,Kathmandu,Kathmandu Metropolitan City,1201202,24416,23897,24084,47981,36025,116762,104806,92865,249667,316157,239646,28792
+30609,Municipality ,Province 3,Kathmandu,Kirtipur Municipality,79150,1609,1575,1370,2945,2158,6797,6010,5222,14835,20040,15190,1897
+30610,Municipality ,Province 3,Kathmandu,Chandragiri Municipality,106480,2164,2118,2682,4800,3741,12009,10950,9891,22011,27947,21184,2552
+30611,Municipality ,Province 3,Kathmandu,Dakshinkali Municipality,31987,650,636,688,1324,1006,3167,2849,2531,7273,8036,6091,767
+30701,Municipality ,Province 3,Bhaktapur,Changunarayan Municipality,67255,1394,1365,1488,2853,2171,6887,6205,5522,14185,17409,13196,1644
+30702,Municipality ,Province 3,Bhaktapur,Bhaktapur Municipality,96395,2000,1956,1906,3862,2883,9248,8269,7292,21436,25765,19530,2359
+30703,Municipality ,Province 3,Bhaktapur,Madhyapur Thimi Municipality,96717,2005,1963,2160,4123,3142,10424,9443,8461,19966,26139,19813,2364
+30704,Municipality ,Province 3,Bhaktapur,Suryabinayak Municipality,91080,1888,1848,2096,3944,3020,9686,8762,7838,19374,25221,19118,2226
+30801,Municipality ,Province 3,Lalitpur,Mahalaxmi Municipality,72770,1511,1478,1719,3197,2458,7928,7189,6450,15277,20146,15271,1782
+30802,Metropolitan City,Province 3,Lalitpur,Lalitpur Metropolitan City,337650,7009,6861,6722,13583,10151,32831,29399,25970,69582,91724,69526,8265
+30803,Municipality ,Province 3,Lalitpur,Godawari Municipality,94058,1953,1911,2242,4153,3198,10120,9165,8209,21207,25415,19265,2303
+30804,Rural Municipality,Province 3,Lalitpur,Konjyosom Rural Municipality,11723,243,238,302,540,421,1448,1329,1210,3080,2852,2162,287
+30805,Rural Municipality,Province 3,Lalitpur,Mahankal Rural Municipality,11468,238,233,314,547,431,1421,1305,1188,2918,2691,2040,281
+30806,Rural Municipality,Province 3,Lalitpur,Bagmati Rural Municipality,15907,330,323,529,852,691,2307,2146,1984,3869,3569,2705,389
+30901,Rural Municipality,Province 3,Kavrepalanchok,Chauri Deurali Rural Municipality,21182,472,457,433,890,662,2123,1895,1666,4939,5852,4436,557
+30902,Rural Municipality,Province 3,Kavrepalanchok,Bhumlu Rural Municipality,19405,433,419,384,803,594,1868,1659,1449,4299,5414,4104,511
+30903,Municipality ,Province 3,Kavrepalanchok,Mandan Deupur Municipality,33893,756,731,664,1395,1030,3340,2975,2609,7088,9925,7523,892
+30904,Municipality ,Province 3,Kavrepalanchok,Banepa Municipality,60198,1343,1300,1138,2438,1784,5467,4813,4167,11781,18635,14126,1583
+30905,Municipality ,Province 3,Kavrepalanchok,Dhulikhel Municipality,36074,804,778,682,1460,1071,3336,2947,2558,7285,10982,8324,948
+30906,Municipality ,Province 3,Kavrepalanchok,Panchkhal Municipality,41642,929,899,745,1644,1195,3810,3361,2911,8244,12045,9130,1096
+30907,Rural Municipality,Province 3,Kavrepalanchok,Temal Rural Municipality,23025,513,497,352,849,601,1976,1728,1479,5776,6284,4763,605
+30908,Municipality ,Province 3,Kavrepalanchok,Namobuddha Municipality,31092,693,671,659,1330,995,3161,2826,2490,6511,9036,6849,817
+30909,Municipality ,Province 3,Kavrepalanchok,Panauti Municipality,49697,1108,1072,939,2011,1475,4571,4035,3499,10181,15524,11767,1307
+30910,Rural Municipality,Province 3,Kavrepalanchok,Bethanchowk Rural Municipality,17371,387,375,411,786,599,1905,1718,1530,3792,5072,3845,456
+30911,Rural Municipality,Province 3,Kavrepalanchok,Roshi Rural Municipality,29726,663,641,748,1389,1069,3520,3200,2879,6727,8025,6083,782
+30912,Rural Municipality,Province 3,Kavrepalanchok,Mahabharat Rural Municipality,19105,426,412,753,1165,959,3226,3020,2814,4405,4571,3465,502
+30913,Rural Municipality,Province 3,Kavrepalanchok,Khanikhola Rural Municipality,15108,337,326,559,885,722,2499,2336,2173,3459,3635,2755,397
+31001,Rural Municipality,Province 3,Ramechhap,Umakunda Rural Municipality,18175,421,408,421,829,625,2024,1820,1616,3845,5302,4019,496
+31002,Rural Municipality,Province 3,Ramechhap,Gokulganga Rural Municipality,20756,481,466,511,977,744,2300,2067,1834,4396,6374,4831,567
+31003,Rural Municipality,Province 3,Ramechhap,Likhu Rural Municipality,23473,544,526,512,1038,775,2499,2236,1973,5080,6977,5289,642
+31004,Municipality ,Province 3,Ramechhap,Ramechhap Municipality,30394,704,682,698,1380,1039,3276,2935,2594,6146,8883,6733,830
+31005,Municipality ,Province 3,Ramechhap,Manthali Municipality,46955,1089,1053,963,2016,1488,4691,4163,3638,9984,14524,11009,1284
+31006,Rural Municipality,Province 3,Ramechhap,Khandadevi Rural Municipality,26274,609,589,503,1092,798,2562,2268,1973,5566,7885,5977,718
+31007,Rural Municipality,Province 3,Ramechhap,Doramba Rural Municipality,23060,534,517,462,979,721,2323,2065,1806,5047,6937,5258,630
+31008,Rural Municipality,Province 3,Ramechhap,Sunapati Rural Municipality,18423,427,413,287,700,494,1566,1360,1153,3952,5506,4174,504
+31101,Municipality ,Province 3,Sindhuli,Dudhouli Municipality,68340,1536,1487,1476,2963,2220,7023,6280,5536,14455,20511,15547,1811
+31102,Rural Municipality,Province 3,Sindhuli,Phikkal Rural Municipality,17450,392,380,472,852,662,2129,1939,1749,3645,4762,3610,462
+31103,Rural Municipality,Province 3,Sindhuli,Tinpatan Rural Municipality,37696,847,820,766,1586,1176,3754,3344,2934,8337,11017,8351,999
+31104,Rural Municipality,Province 3,Sindhuli,Golanjor Rural Municipality,20291,456,441,448,889,669,2127,1907,1686,4122,5462,4140,538
+31105,Municipality ,Province 3,Sindhuli,Kamalamai Municipality,70077,1576,1524,1136,2660,1896,5863,5099,4339,14504,21225,16088,1859
+31106,Rural Municipality,Province 3,Sindhuli,Sunkoshi Rural Municipality,23016,517,501,345,846,596,1838,1588,1337,4814,6665,5052,610
+31107,Rural Municipality,Province 3,Sindhuli,Ghyanglekha Rural Municipality,14021,315,305,358,663,511,1666,1514,1361,3088,3976,3014,371
+31108,Rural Municipality,Province 3,Sindhuli,Marin Rural Municipality,28463,640,619,751,1370,1061,3504,3195,2885,6195,8189,6207,755
+31109,Rural Municipality,Province 3,Sindhuli,Hariharpurgaghi Rural Municipality,28140,633,612,779,1391,1085,3640,3334,3028,6170,7869,5965,746
+31201,Rural Municipality,Province 3,Makwanpur,Indrasarowar Rural Municipality,14962,328,317,286,603,445,1381,1223,1064,3204,4297,3257,387
+31202,Municipality ,Province 3,Makwanpur,Thaha Municipality,45185,990,958,870,1828,1349,4347,3868,3389,9514,12791,9696,1167
+31203,Rural Municipality,Province 3,Makwanpur,Kailash Rural Municipality,25335,555,537,831,1368,1100,3636,3368,3099,5422,6083,4611,654
+31204,Rural Municipality,Province 3,Makwanpur,Raksirang Rural Municipality,27741,608,588,949,1537,1243,4063,3769,3475,6253,6778,5138,717
+31205,Rural Municipality,Province 3,Makwanpur,Manahari Rural Municipality,41859,917,887,958,1845,1402,4531,4088,3644,9136,11601,8794,1081
+31206,Sub-Metropolitan City,Province 3,Makwanpur,Hetauda Sub-Metropolitan City,167778,3674,3558,2694,6252,4471,13706,11925,10148,33921,52083,39478,4334
+31207,Rural Municipality,Province 3,Makwanpur,Bhimphedi Rural Municipality,26856,588,569,521,1090,806,2537,2253,1968,5633,7135,5408,693
+31208,Rural Municipality,Province 3,Makwanpur,Makawanpurgadhi Rural Municipality,27028,592,573,619,1192,906,2913,2627,2340,6193,7472,5664,698
+31209,Rural Municipality,Province 3,Makwanpur,Bakaiya Rural Municipality,41906,918,888,1148,2036,1592,5378,4934,4490,9384,11307,8571,1083
+31210,Rural Municipality,Province 3,Makwanpur,Bagmati Rural Municipality,32377,709,686,790,1476,1133,3857,3514,3171,7286,8628,6540,836
+31301,Municipality ,Province 3,Chitwan,Rapti Municipality,69129,1547,1498,1849,3347,2598,8504,7755,7006,14820,18537,14051,1824
+31302,Municipality ,Province 3,Chitwan,Kalika Municipality,51852,1161,1123,1302,2425,1864,6071,5510,4948,10761,13812,10469,1369
+31303,Rural Municipality,Province 3,Chitwan,Ichchha Kamana Rural Municipality,28966,648,627,1020,1647,1334,4359,4046,3732,6500,6868,5206,764
+31304,Metropolitan City,Province 3,Chitwan,Bharatpur Metropolitan City,326351,7307,7069,6168,13237,9702,30977,27442,23908,68294,97210,73685,8617
+31305,Municipality ,Province 3,Chitwan,Ratnanagar Municipality,80029,1791,1734,1416,3150,2283,7124,6257,5390,17347,24141,18299,2112
+31306,Municipality ,Province 3,Chitwan,Khairahani Municipality,64975,1454,1408,1223,2631,1927,5957,5253,4549,14204,19894,15080,1715
+31307,Municipality ,Province 3,Chitwan,Madi Municipality,43387,971,940,1158,2098,1628,5214,4744,4274,9315,12575,9532,1145
+40101,Rural Municipality,Gandaki Province,Gorkha,Chumanubri Rural Municipality,7245,174,168,196,364,280,946,862,778,1028,1944,1474,205
+40102,Rural Municipality,Gandaki Province,Gorkha,Ajirkot Rural Municipality,14592,350,339,317,656,487,1544,1375,1205,3123,4351,3298,413
+40103,Rural Municipality,Gandaki Province,Gorkha,Sulikot Rural Municipality,23323,559,541,557,1098,828,2647,2377,2106,5090,7023,5323,659
+40104,Rural Municipality,Gandaki Province,Gorkha,Dharche Rural Municipality,12538,301,291,385,676,531,1684,1539,1393,2452,3550,2691,355
+40105,Rural Municipality,Gandaki Province,Gorkha,Aarughat Rural Municipality,22279,534,517,513,1030,772,2417,2159,1900,4961,6837,5182,630
+40106,Rural Municipality,Gandaki Province,Gorkha,Bhimsen Rural Municipality,20297,487,471,355,826,591,1886,1651,1415,4529,6442,4883,574
+40107,Rural Municipality,Gandaki Province,Gorkha,Siranchowk Rural Municipality,21896,525,508,433,941,687,2068,1814,1560,4595,6839,5184,619
+40108,Municipality ,Gandaki Province,Gorkha,Palungtar Municipality,35608,854,826,724,1550,1137,3611,3198,2785,7348,11421,8657,1007
+40109,Municipality ,Gandaki Province,Gorkha,Gorkha Municipality,49317,1182,1145,899,2044,1469,4686,4111,3541,10082,15978,12111,1394
+40110,Rural Municipality,Gandaki Province,Gorkha,Shahid Lakhan Rural Municipality,25597,614,594,516,1110,813,2442,2145,1848,5721,8270,6269,724
+40111,Rural Municipality,Gandaki Province,Gorkha,Gandaki Rural Municipality,21563,517,500,373,873,623,2030,1780,1530,4902,6443,4884,610
+40201,Rural Municipality,Gandaki Province,Manang,Naraphu Rural Municipality,542,10,9,9,17,13,50,46,41,102,139,105,12
+40202,Rural Municipality,Gandaki Province,Manang,Neshang Rural Municipality,2369,42,40,36,76,56,198,178,158,544,522,396,50
+40203,Rural Municipality,Gandaki Province,Manang,Chame Rural Municipality,1397,24,24,40,64,52,157,145,133,276,315,238,27
+40204,Rural Municipality,Gandaki Province,Manang,Nashong Rural Municipality,2087,37,36,63,99,81,261,243,225,453,489,371,44
+40301,Rural Municipality,Gandaki Province,Mustang,Dalome Rural Municipality,1374,28,27,34,61,48,167,154,140,167,415,315,33
+40302,Rural Municipality,Gandaki Province,Mustang,Gharpajhong Rural Municipality,3366,69,67,68,135,102,317,284,250,820,804,609,81
+40303,Rural Municipality,Gandaki Province,Mustang,Bahragaun Muktikshetra Rural Municipality,2330,48,46,53,99,75,228,204,182,361,722,548,56
+40304,Rural Municipality,Gandaki Province,Mustang,Lomanthang Rural Municipality,2123,43,42,32,74,53,184,163,142,470,591,448,51
+40305,Rural Municipality,Gandaki Province,Mustang,Thasang Rural Municipality,2887,59,57,78,135,107,351,323,294,760,676,512,70
+40401,Rural Municipality,Gandaki Province,Myagdi,Annapurna Rural Municipality,13143,309,299,190,489,340,1016,867,717,2517,4017,3045,364
+40402,Rural Municipality,Gandaki Province,Myagdi,Raghuganga Rural Municipality,15492,364,352,322,674,498,1576,1400,1224,3085,4803,3641,429
+40403,Rural Municipality,Gandaki Province,Myagdi,Dhawalagiri Rural Municipality,13620,320,310,389,699,544,1757,1602,1447,2821,3846,2915,377
+40404,Rural Municipality,Gandaki Province,Myagdi,Malika Rural Municipality,18718,440,426,482,908,695,2211,1998,1785,4295,5520,4184,519
+40405,Rural Municipality,Gandaki Province,Myagdi,Mangala Rural Municipality,15947,375,363,342,705,524,1660,1479,1297,3527,4977,3773,442
+40406,Municipality ,Gandaki Province,Myagdi,Beni Municipality,35052,823,796,613,1409,1010,3230,2831,2434,7487,10966,8312,972
+40501,Rural Municipality,Gandaki Province,Kaski,Madi Rural Municipality,20812,460,450,548,998,773,2391,2166,1941,4388,5253,3982,542
+40502,Rural Municipality,Gandaki Province,Kaski,Machhapuchchhre Rural Municipality,25151,555,544,693,1237,965,3016,2744,2472,5251,6712,5088,654
+40503,Rural Municipality,Gandaki Province,Kaski,Annapurna Rural Municipality,26941,595,582,706,1288,997,3098,2807,2516,6106,7436,5636,702
+40504,Metropolitan City,Gandaki Province,Kaski,Pokhara Lekhnath Metropolitan City,470787,10397,10176,9625,19801,14710,47331,42240,37155,99737,136627,103564,12260
+40505,Rural Municipality,Gandaki Province,Kaski,Rupa Rural Municipality,16568,366,358,363,721,542,1704,1525,1346,3650,4494,3406,432
+40601,Rural Municipality,Gandaki Province,Lamjung,Dordi Rural Municipality,18290,433,419,437,856,647,2005,1796,1586,3903,5359,4062,511
+40602,Rural Municipality,Gandaki Province,Lamjung,Marshyangdi Rural Municipality,19118,452,438,457,895,676,2079,1860,1641,3920,5663,4293,533
+40603,Rural Municipality,Gandaki Province,Lamjung,Kwhola Sothar Rural Municipality,10171,241,233,256,489,373,1142,1026,909,2108,2982,2260,284
+40604,Municipality ,Gandaki Province,Lamjung,Madhya Nepal Municipality,23866,565,546,466,1012,739,2318,2045,1772,5360,7437,5637,666
+40605,Municipality ,Gandaki Province,Lamjung,Bensi Shahar Municipality,42436,1004,972,798,1770,1282,4179,3691,3207,8668,13174,9986,1184
+40606,Municipality ,Gandaki Province,Lamjung,Sundarbazar Municipality,25776,653,632,515,1147,831,2718,2402,2086,5886,8906,6751,770
+40607,Municipality ,Gandaki Province,Lamjung,Rainas Municipality,18634,441,427,390,817,604,1900,1687,1473,4078,5828,4418,520
+40608,Rural Municipality,Gandaki Province,Lamjung,Dudhapokhari Rural Municipality,10974,260,251,245,496,371,1147,1022,896,2332,3180,2410,307
+40701,Municipality ,Gandaki Province,Tanahu,Bhanu Municipality,48252,1167,1129,940,2069,1505,4629,4065,3500,9938,15126,11466,1376
+40702,Municipality ,Gandaki Province,Tanahu,Byas Municipality,75707,1830,1772,1367,3139,2251,7181,6293,5409,15880,24501,18571,2159
+40703,Rural Municipality,Gandaki Province,Tanahu,Myagde Rural Municipality,23559,570,551,473,1024,749,2315,2040,1764,5017,7430,5632,672
+40704,Municipality ,Gandaki Province,Tanahu,Shuklagandaki Municipality,52909,1279,1238,1029,2267,1648,5186,4567,3948,10892,16704,12662,1508
+40705,Municipality ,Gandaki Province,Tanahu,Bhimad Municipality,32716,791,765,695,1460,1078,3498,3116,2733,7022,10528,7980,933
+40706,Rural Municipality,Gandaki Province,Tanahu,Ghiring Rural Municipality,20039,484,469,538,1007,773,2473,2239,2004,4546,6212,4709,571
+40707,Rural Municipality,Gandaki Province,Tanahu,Rhishing Rural Municipality,26713,646,625,683,1308,996,3238,2926,2613,6010,8095,6136,762
+40708,Rural Municipality,Gandaki Province,Tanahu,Devghat Rural Municipality,17272,418,404,410,814,612,1866,1664,1462,3789,4885,3703,493
+40709,Rural Municipality,Gandaki Province,Tanahu,Bandipur Rural Municipality,21114,510,494,401,895,648,2013,1766,1519,4421,6400,4851,601
+40710,Rural Municipality,Gandaki Province,Tanahu,Aanbu Khaireni Rural Municipality,22214,537,520,497,1017,757,2348,2088,1828,4547,6912,5239,633
+40801,Municipality ,Gandaki Province,Nawalparasi East,Gaidakot Municipality,65082,1554,1505,1085,2590,1836,5594,4840,4089,13894,20212,15321,1833
+40802,Rural Municipality,Gandaki Province,Nawalparasi East,Bulingtar Rural Municipality,20732,496,480,566,1046,806,2597,2357,2117,4765,5927,4493,585
+40803,Rural Municipality,Gandaki Province,Nawalparasi East,Bungdikali Rural Municipality,17043,408,394,444,838,641,2072,1875,1678,3962,4976,3772,481
+40804,Rural Municipality,Gandaki Province,Nawalparasi East,Hupsekot Rural Municipality,27291,653,632,735,1367,1051,3407,3091,2775,6135,8066,6114,770
+40805,Municipality ,Gandaki Province,Nawalparasi East,Devchuli Municipality,46944,1123,1087,874,1961,1418,4386,3843,3299,9871,14813,11228,1324
+40806,Municipality ,Gandaki Province,Nawalparasi East,Kawasoti Municipality,68723,1644,1591,1245,2836,2041,6302,5507,4711,14934,21930,16623,1939
+40807,Municipality ,Gandaki Province,Nawalparasi East,Madhya Bindu Municipality,59566,1425,1379,1216,2595,1906,5972,5283,4593,13033,18756,14217,1680
+40808,Rural Municipality,Gandaki Province,Nawalparasi East,Binayi Tribeni Rural Municipality,36250,867,839,827,1666,1247,4027,3608,3188,7712,11061,8384,1022
+40901,Municipality ,Gandaki Province,Syangja,Putalibazar Municipality,41741,1018,985,757,1742,1248,3869,3375,2884,8117,13222,10021,1200
+40902,Rural Municipality,Gandaki Province,Syangja,Phedikhola Rural Municipality,11169,272,264,206,470,338,1058,926,794,2275,3656,2771,321
+40903,Rural Municipality,Gandaki Province,Syangja,Aandhikhola Rural Municipality,14838,362,350,319,669,494,1528,1353,1178,3218,4710,3570,427
+40904,Rural Municipality,Gandaki Province,Syangja,Arjun Choupari Rural Municipality,14477,353,342,345,687,516,1589,1418,1247,3266,4532,3435,416
+40905,Municipality ,Gandaki Province,Syangja,Bhirkot Municipaity,23154,565,547,518,1065,792,2520,2247,1973,4759,7350,5571,666
+40906,Rural Municipality,Gandaki Province,Syangja,Biruwa Rural Municipality,16524,403,390,328,718,523,1560,1365,1170,3569,5059,3835,475
+40907,Rural Municipality,Gandaki Province,Syangja,Harinas Rural Municipality,15604,381,368,415,783,599,1869,1685,1501,3264,4754,3604,449
+40908,Municipality ,Gandaki Province,Syangja,Chapakot Municipality,23697,578,559,570,1129,850,2728,2449,2169,4963,7460,5655,682
+40909,Municipality ,Gandaki Province,Syangja,Walling Municipality,47283,1153,1116,892,2008,1450,4593,4035,3477,10044,15203,11524,1360
+40910,Municipality ,Gandaki Province,Syangja,Galyang Municipality,34424,840,813,686,1499,1093,3551,3145,2738,7794,10997,8336,991
+40911,Rural Municipality,Gandaki Province,Syangja,Kaligandaki Rural Municipality,19805,483,467,370,837,604,1925,1692,1458,4302,6188,4691,570
+41001,Rural Municipality,Gandaki Province,Parbat,Modi Rural Municipality,21406,512,496,503,999,751,2287,2039,1791,4426,6712,5088,604
+41002,Rural Municipality,Gandaki Province,Parbat,Jaljala Rural Municipality,22035,527,510,478,988,733,2301,2046,1791,4606,6967,5281,621
+41003,Municipality ,Gandaki Province,Parbat,Kushma Municipality,41549,994,962,754,1716,1234,3964,3482,3002,8370,12732,9650,1173
+41004,Municipality ,Gandaki Province,Parbat,Phalebas Municipality,24731,592,573,489,1062,776,2428,2142,1855,5388,7806,5917,698
+41005,Rural Municipality,Gandaki Province,Parbat,Mahashila Rural Municipality,9808,235,227,219,446,333,1039,926,812,2135,2953,2238,277
+41006,Rural Municipality,Gandaki Province,Parbat,Bihadi Rural Municipality,13348,319,309,324,633,479,1540,1386,1231,2956,4075,3089,376
+41007,Rural Municipality,Gandaki Province,Parbat,Paiyu Rural Municipality,15390,368,356,308,664,486,1583,1405,1227,3515,4774,3619,434
+41101,Municipality ,Gandaki Province,Baglung,Baglung Municipality,63511,1542,1495,972,2467,1719,5315,4567,3820,12408,20659,15658,1818
+41102,Rural Municipality,Gandaki Province,Baglung,Kathekhola Rural Municipality,27150,660,638,491,1129,810,2483,2164,1845,5885,9075,6879,778
+41103,Rural Municipality,Gandaki Province,Baglung,Tarakhola Rural Municipality,12519,304,294,299,593,446,1375,1228,1081,2536,3893,2951,358
+41104,Rural Municipality,Gandaki Province,Baglung,Tamankhola Rural Municipality,11016,268,259,308,567,438,1354,1225,1095,2313,3306,2506,316
+41105,Municipality ,Gandaki Province,Baglung,Dhorpatan Municipality,27421,666,645,755,1400,1078,3446,3124,2801,5834,8113,6150,785
+41106,Rural Municipality,Gandaki Province,Baglung,Nisikhola Rural Municipality,23905,581,562,662,1224,943,3022,2741,2460,5414,6878,5214,685
+41107,Rural Municipality,Gandaki Province,Baglung,Badigad Rural Municipality,31810,773,748,830,1578,1204,3932,3558,3184,6866,9692,7347,912
+41108,Municipality ,Gandaki Province,Baglung,Galkot Municipality,34551,840,812,611,1423,1017,3215,2809,2403,7243,11105,8418,991
+41109,Rural Municipality,Gandaki Province,Baglung,Bareng Rural Municipality,14903,362,350,293,643,468,1480,1305,1130,3363,4778,3622,427
+41110,Municipality ,Gandaki Province,Baglung,Jaimuni Municipality,33193,807,780,551,1331,941,2938,2548,2158,7376,10755,8152,952
+50101,Rural Municipality,Province 5,Rukum East,Putha Uttanganga Rural Municipality,19431,429,415,387,802,594,1868,1660,1453,3774,5603,4247,505
+50102,Rural Municipality,Province 5,Rukum East,Sisne Rural Municipality,17672,390,377,343,720,532,1697,1509,1320,3525,5274,3998,460
+50103,Rural Municipality,Province 5,Rukum East,Bhoome Rural Municipality,19902,439,425,398,823,611,1907,1695,1482,4205,6004,4551,518
+50201,Rural Municipality,Province 5,Rolpa,Sunchhahari Rural Municipality,16792,396,383,318,701,510,1668,1477,1285,3171,4654,3528,467
+50202,Rural Municipality,Province 5,Rolpa,Thawang Rural Municipality,11554,273,264,224,488,356,1108,976,844,2332,3400,2577,322
+50203,Rural Municipality,Province 5,Rolpa,Paribartan Rural Municipality,21686,511,495,454,949,702,2151,1904,1656,4808,6832,5179,603
+50204,Rural Municipality,Province 5,Rolpa,Gangadev Rural Municipality,20587,486,470,451,921,686,2226,1991,1756,4736,6321,4791,573
+50205,Rural Municipality,Province 5,Rolpa,Madi Rural Municipality,18938,447,432,405,837,621,1874,1658,1442,4076,5988,4539,527
+50206,Rural Municipality,Province 5,Rolpa,Tribeni Rural Municipality,25542,602,583,447,1030,739,2363,2072,1780,5395,7777,5895,710
+50207,Municipality ,Province 5,Rolpa,Rolpa Municipality,36540,861,834,652,1486,1067,3379,2960,2545,7590,11187,8479,1016
+50208,Rural Municipality,Province 5,Rolpa,Runtigadhi Rural Municipality,29610,698,676,678,1354,1016,3223,2885,2547,6365,9327,7070,823
+50209,Rural Municipality,Province 5,Rolpa,Sunil Smriti Rural Municipality,29155,688,666,614,1280,947,3026,2693,2360,6252,9010,6830,811
+50210,Rural Municipality,Province 5,Rolpa,Lungri Rural Municipality,24147,570,551,649,1200,925,2961,2686,2410,4981,7270,5511,672
+50301,Rural Municipality,Province 5,Pyuthan,Gaumukhi Rural Municipality,26242,642,621,645,1266,956,3087,2777,2466,5457,7736,5864,757
+50302,Rural Municipality,Province 5,Pyuthan,Naubahini Rural Municipality,31399,768,744,761,1505,1133,3630,3258,2886,6440,9342,7081,906
+50303,Rural Municipality,Province 5,Pyuthan,Jhimaruk Rural Municipality,29058,711,688,548,1236,892,2791,2447,2103,6589,9380,7110,838
+50304,Municipality ,Province 5,Pyuthan,Pyuthan Municipality,42658,1044,1011,645,1656,1148,3576,3068,2565,8584,13555,10275,1231
+50305,Municipality ,Province 5,Pyuthan,Sworgadwari Municipality,32483,795,769,743,1512,1128,3484,3100,2715,6793,10849,8224,938
+50306,Rural Municipality,Province 5,Pyuthan,Mandavi Rural Municipality,15682,384,371,348,719,534,1682,1497,1311,3372,5053,3830,453
+50307,Rural Municipality,Province 5,Pyuthan,Mallarani Rural Municipality,18716,458,443,343,786,565,1722,1501,1279,3970,6416,4863,540
+50308,Rural Municipality,Province 5,Pyuthan,Aairawati Rural Municipality,23264,569,551,472,1023,748,2351,2076,1800,5089,7466,5659,671
+50309,Rural Municipality,Province 5,Pyuthan,Sarumarani Rural Municipality,19340,473,458,404,862,633,2027,1798,1569,4218,6022,4565,558
+50401,Rural Municipality,Province 5,Gulmi,Kali Gandaki Rural Municipality,17753,436,422,355,777,566,1757,1546,1335,3874,5470,4146,514
+50402,Rural Municipality,Province 5,Gulmi,Satyawoti Rural Municipality,22537,554,536,380,916,648,2040,1772,1504,4628,7308,5539,653
+50403,Rural Municipality,Province 5,Gulmi,Chandrakot Rural Municipality,20643,508,491,378,869,624,1932,1687,1441,4434,6788,5145,599
+50404,Municipality ,Province 5,Gulmi,Musikot Municipality,30921,760,736,677,1413,1045,3301,2933,2565,6530,9696,7350,896
+50405,Rural Municipality,Province 5,Gulmi,Isma Rural Municipality,19526,480,465,494,959,727,2275,2043,1810,4156,6018,4562,566
+50406,Rural Municipality,Province 5,Gulmi,Malika Rural Municipality,20226,497,481,490,971,731,2304,2064,1823,4485,6181,4685,586
+50407,Rural Municipality,Province 5,Gulmi,Madane Rural Municipality,20438,502,486,558,1044,801,2585,2342,2099,4349,6062,4595,592
+50408,Rural Municipality,Province 5,Gulmi,Dhurkot Rural Municipality,20900,514,497,451,948,700,2179,1931,1682,4550,6682,5065,606
+50409,Municipality ,Province 5,Gulmi,Resunga Municipality,32349,796,771,514,1285,897,2835,2447,2064,6887,10494,7955,940
+50410,Rural Municipality,Province 5,Gulmi,Gulmi Durbar Rural Municipality,20647,508,491,405,896,651,2027,1782,1536,4337,6949,5267,599
+50411,Rural Municipality,Province 5,Gulmi,Chhatrakot Rural Municipality,20171,496,480,427,907,667,2105,1865,1625,3972,6758,5123,585
+50412,Rural Municipality,Province 5,Gulmi,Ruru Rural Municipality,17501,430,416,280,696,488,1527,1319,1111,3536,5677,4303,507
+50501,Rural Municipality,Province 5,Arghakhanchi,Chhatradev Rural Municipality,25350,624,604,457,1061,759,2337,2035,1733,5603,8460,6413,736
+50502,Rural Municipality,Province 5,Arghakhanchi,Malarani Rural Municipality,28221,694,672,652,1324,988,3104,2768,2432,6015,9321,7065,818
+50503,Municipality ,Province 5,Arghakhanchi,Bhumikasthan Municipality,32989,812,786,732,1518,1125,3508,3115,2722,7169,10845,8221,958
+50504,Municipality ,Province 5,Arghakhanchi,Sandhikharka Municipality,44137,1086,1050,659,1709,1183,3751,3225,2701,8683,14220,10778,1281
+50505,Rural Municipality,Province 5,Arghakhanchi,Panini Rural Municipality,26579,654,633,574,1207,891,2762,2446,2129,5621,8445,6401,771
+50506,Municipality ,Province 5,Arghakhanchi,Shitaganga Municipality,44294,1090,1055,1060,2115,1588,5079,4552,4024,9526,13064,9903,1285
+50601,Municipality ,Province 5,Palpa,Rampur Municipality,34218,827,801,682,1483,1083,3515,3115,2714,7336,10863,8234,975
+50602,Rural Municipality,Province 5,Palpa,Purbakhola Rural Municipality,18622,450,436,474,910,692,2204,1986,1768,4195,5765,4370,531
+50603,Rural Municipality,Province 5,Palpa,Rambha Rural Municipality,19225,465,450,412,862,637,1956,1731,1506,4327,6228,4721,548
+50604,Rural Municipality,Province 5,Palpa,Baganaskali Rural Municipality,20498,496,480,352,832,592,1839,1599,1359,4262,6732,5103,585
+50605,Municipality ,Province 5,Palpa,Tansen Municipality,52443,1268,1227,715,1942,1327,4123,3508,2896,10320,16987,12875,1495
+50606,Rural Municipality,Province 5,Palpa,Ribdikot Rural Municipality,17906,433,419,365,784,575,1811,1602,1392,3657,5642,4277,511
+50607,Rural Municipality,Province 5,Palpa,Rainadevi Chhahara Rural Municipality,25267,611,591,676,1267,972,2983,2688,2392,5546,7694,5832,721
+50608,Rural Municipality,Province 5,Palpa,Tinau Rural Municipality,18647,451,436,440,876,658,2058,1840,1622,3920,5591,4238,532
+50609,Rural Municipality,Province 5,Palpa,Mathagadhi Rural Municipality,24029,581,562,532,1094,813,2590,2309,2028,5082,7376,5591,685
+50610,Rural Municipality,Province 5,Palpa,Nisdi Rural Municipality,21694,525,508,569,1077,823,2694,2440,2186,4803,6357,4819,619
+50701,Municipality ,Province 5,Nawalparasi West,Bardaghat Municipality,67445,1489,1441,1288,2729,2009,6255,5535,4814,14306,21144,16027,1756
+50702,Municipality ,Province 5,Nawalparasi West,Sunawal Municipality,61842,1367,1322,1207,2529,1866,5854,5191,4532,13307,19516,14794,1612
+50703,Municipality ,Province 5,Nawalparasi West,Ramgram Municipality,66146,1460,1413,1308,2721,2015,6467,5761,5054,12999,18063,13692,1722
+50704,Rural Municipality,Province 5,Nawalparasi West,Palhinandan Rural Municipality,38518,850,823,983,1806,1395,4582,4171,3759,8197,10300,7807,1002
+50705,Rural Municipality,Province 5,Nawalparasi West,Sarawal Rural Municipality,40961,904,875,922,1797,1330,4335,3898,3460,8471,11586,8782,1066
+50706,Rural Municipality,Province 5,Nawalparasi West,Pratapapur Rural Municipality,49619,1095,1060,1182,2242,1712,5663,5133,4603,9777,13147,9965,1291
+50707,Rural Municipality,Province 5,Nawalparasi West,Susta Rural Municipality,39136,864,836,1007,1843,1425,4733,4315,3897,8329,10668,8086,1019
+50801,Municipality ,Province 5,Rupandehi,Devdaha Municipality,61911,1363,1319,1248,2567,1908,5915,5256,4596,13699,19341,14660,1607
+50802,Sub-Metropolitan City,Province 5,Rupandehi,Butwal Sub-Metropolitan City,164123,3611,3496,2469,5965,4213,13096,11344,9600,33220,51925,39362,4257
+50803,Municipality ,Province 5,Rupandehi,Sainamaina Municipality,66112,1455,1408,1146,2554,1850,5840,5136,4432,14387,20560,15584,1716
+50804,Rural Municipality,Province 5,Rupandehi,Kanchan Rural Municipality,38142,839,812,733,1545,1139,3644,3238,2832,8505,12125,9191,989
+50805,Rural Municipality,Province 5,Rupandehi,Gaidahawa Rural Municipality,54548,1201,1162,1528,2690,2109,6966,6385,5804,12043,13697,10382,1416
+50806,Rural Municipality,Province 5,Rupandehi,Suddhodhan Rural Municipality,39836,877,848,794,1642,1218,3922,3498,3074,8951,11531,8740,1034
+50807,Rural Municipality,Province 5,Rupandehi,Siyari Rural Municipality,44430,978,946,1009,1955,1482,4658,4185,3712,9681,12800,9702,1153
+50808,Municipality ,Province 5,Rupandehi,Tilottama Municipality,116419,2562,2480,1810,4290,3050,9423,8183,6943,24613,36949,28007,3021
+50809,Rural Municipality,Province 5,Rupandehi,Om Satiya Rural Municipality,39466,869,841,855,1696,1276,4106,3686,3265,8540,11213,8499,1025
+50810,Rural Municipality,Province 5,Rupandehi,Rohini Rural Municipality,42701,940,909,1089,1998,1544,5041,4587,4132,9465,11002,8340,1108
+50811,Municipality ,Province 5,Rupandehi,Siddharthanagar Municipality,75183,1655,1601,1274,2875,2075,6412,5612,4811,14725,22062,16723,1952
+50812,Rural Municipality,Province 5,Rupandehi,Mayadevi Rural Municipality,54070,1190,1152,1468,2620,2044,6734,6158,5582,11836,13704,10388,1403
+50813,Municipality ,Province 5,Rupandehi,Lumbini Sanskritik Municipality,83073,1828,1769,2617,4386,3502,11566,10682,9797,17942,20457,15506,2156
+50814,Rural Municipality,Province 5,Rupandehi,Kotahimai Rural Municipality,47072,1036,1003,1264,2267,1766,5832,5331,4829,9877,11364,8614,1222
+50815,Rural Municipality,Province 5,Rupandehi,Sammarimai Rural Municipality,44020,969,938,1303,2241,1772,5844,5375,4906,9189,10611,8043,1143
+50816,Rural Municipality,Province 5,Rupandehi,Marchawari Rural Municipality,44528,980,948,1121,2069,1595,5335,4861,4387,9329,10653,8075,1156
+50901,Municipality ,Province 5,Kapilbastu,Banganga Municipality,86286,1859,1799,1203,3002,2103,6338,5439,4539,19320,28663,21727,2192
+50902,Municipality ,Province 5,Kapilbastu,Buddhabhumi Municipality,73739,1589,1538,1519,3057,2288,7218,6449,5680,15773,21618,16386,1874
+50903,Municipality ,Province 5,Kapilbastu,Shivaraj Municipality,75062,1617,1565,1691,3256,2474,8019,7237,6454,16180,20720,15706,1907
+50904,Rural Municipality,Province 5,Kapilbastu,Bijayanagar Rural Municipality,41355,891,862,977,1839,1408,4664,4233,3802,8365,10831,8210,1051
+50905,Municipality ,Province 5,Kapilbastu,Krishnanagar Municipality,69939,1507,1458,1592,3050,2321,7573,6844,6115,14518,18181,13781,1777
+50906,Municipality ,Province 5,Kapilbastu,Maharajganj Municipality,61410,1323,1280,1480,2760,2120,6888,6248,5608,12541,15547,11785,1560
+50907,Municipality ,Province 5,Kapilbastu,Kapilbastu Municipality,86568,1864,1805,1764,3569,2665,8485,7581,6680,18778,24288,18409,2198
+50908,Rural Municipality,Province 5,Kapilbastu,Yasodhara Rural Municipality,43676,941,911,1027,1938,1483,4860,4405,3949,8892,11530,8740,1110
+50909,Rural Municipality,Province 5,Kapilbastu,Mayadevi Rural Municipality,54099,1166,1128,1316,2444,1880,6146,5582,5018,11761,14732,11167,1375
+50910,Rural Municipality,Province 5,Kapilbastu,Shuddhodhan Rural Municipality,50341,1085,1050,1277,2327,1802,5904,5379,4854,10653,13468,10209,1279
+51001,Rural Municipality,Province 5,Dang,Bangalachuli Rural Municipality,26840,616,596,956,1552,1254,4110,3812,3514,5499,7373,5589,726
+51002,Sub-Metropolitan City,Province 5,Dang,Ghorahi Sub-Metropolitan City,179268,4117,3984,3593,7577,5583,17576,15582,13592,38149,54596,41382,4856
+51003,Sub-Metropolitan City,Province 5,Dang,Tulsipur Sub-Metropolitan City,161256,3702,3582,3147,6729,4938,15620,13829,12038,33981,49006,37147,4366
+51004,Rural Municipality,Province 5,Dang,Shantinagar Rural Municipality,28420,652,631,636,1267,952,3051,2736,2420,5933,8414,6378,769
+51005,Rural Municipality,Province 5,Dang,Babai Rural Municipality,30602,702,680,695,1375,1035,3420,3080,2740,6685,9162,6945,828
+51006,Rural Municipality,Province 5,Dang,Dangisharan Rural Municipality,24187,555,537,477,1014,746,2317,2049,1780,5247,7302,5535,654
+51007,Municipality ,Province 5,Dang,Lamahi Municipality,54213,1244,1204,1007,2211,1609,5125,4523,3921,11572,16254,12321,1467
+51008,Rural Municipality,Province 5,Dang,Rapti Rural Municipality,46193,1060,1026,890,1916,1403,4514,4001,3488,9634,13521,10249,1250
+51009,Rural Municipality,Province 5,Dang,Gadhawa Rural Municipality,43616,1001,969,956,1925,1441,4487,4003,3518,9371,12346,9358,1180
+51010,Rural Municipality,Province 5,Dang,Rajpur Rural Municipality,27976,642,621,762,1383,1073,3551,3241,2930,6052,7434,5635,757
+51101,Rural Municipality,Province 5,Banke,Rapti Sonari Rural Municipality,70891,1538,1488,1488,2976,2232,7165,6421,5677,16344,20171,15290,1814
+51102,Municipality ,Province 5,Banke,Kohalpur Municipality,84999,1844,1784,1666,3450,2558,8143,7251,6359,18222,25538,19358,2175
+51103,Rural Municipality,Province 5,Banke,Baijanath Rural Municipality,64560,1400,1355,1426,2781,2104,6588,5911,5233,14080,19309,14636,1651
+51104,Rural Municipality,Province 5,Banke,Khajura Rural Municipality,59978,1301,1259,1410,2669,2040,6434,5805,5175,12913,17899,13567,1534
+51105,Rural Municipality,Province 5,Banke,Janaki Rural Municipality,44208,959,928,1056,1984,1520,5022,4558,4094,8919,11070,8391,1131
+51106,Sub-Metropolitan City,Province 5,Banke,Nepalganj Sub-Metropolitan City,165718,3595,3479,3161,6640,4899,15744,14003,12265,34133,46896,35547,4239
+51107,Rural Municipality,Province 5,Banke,Duduwa Rural Municipality,43682,948,917,1154,2071,1613,5256,4798,4339,9321,10869,8239,1118
+51108,Rural Municipality,Province 5,Banke,Narainapur Rural Municipality,40900,887,859,1001,1860,1431,4767,4338,3908,8430,10053,7620,1046
+51201,Municipality ,Province 5,Bardiya,Bansgadhi Municipality,60863,1375,1331,1332,2663,1998,6447,5782,5116,13088,18016,13656,1621
+51202,Municipality ,Province 5,Bardiya,Barbardiya Municipality,74250,1678,1624,1619,3243,2431,7738,6926,6114,15926,22029,16698,1979
+51203,Municipality ,Province 5,Bardiya,Thakurbaba Municipality,49187,1111,1076,1099,2175,1637,5130,4592,4054,10984,14606,11071,1310
+51204,Rural Municipality,Province 5,Bardiya,Geruwa Rural Municipality,37940,857,830,742,1572,1157,3661,3246,2831,8563,11378,8625,1011
+51205,Municipality ,Province 5,Bardiya,Rajapur Municipality,65607,1482,1435,1196,2631,1914,5905,5188,4470,13917,19723,14950,1748
+51206,Municipality ,Province 5,Bardiya,Madhuwan Municipality,50993,1152,1115,1139,2254,1697,5423,4866,4308,10884,15373,11653,1358
+51207,Municipality ,Province 5,Bardiya,Gulariya Municipality,74364,1682,1625,1574,3199,2385,7891,7077,6266,15034,19730,14955,1983
+51208,Rural Municipality,Province 5,Bardiya,Badhaiyatal Rural Municipality,52542,1187,1149,1170,2319,1745,5565,4991,4416,10525,15679,11885,1400
+60101,Rural Municipality,Karnali Province,Dolpa,Dolpo Buddha Rural Municipality,2385,51,49,30,79,55,200,176,151,437,712,540,60
+60102,Rural Municipality,Karnali Province,Dolpa,Shey Phoksundo Rural Municipality,3593,76,74,38,111,74,259,222,185,626,1003,760,90
+60103,Rural Municipality,Karnali Province,Dolpa,Jagadulla Rural Municipality,2556,54,53,68,121,95,303,277,250,534,701,531,64
+60104,Rural Municipality,Karnali Province,Dolpa,Mudkechula Rural Municipality,5595,119,115,160,275,218,702,645,587,1271,1441,1092,140
+60105,Municipality ,Karnali Province,Dolpa,Tripurasundari Municipality,11340,241,233,295,528,412,1305,1189,1072,2554,3029,2296,284
+60106,Municipality ,Karnali Province,Dolpa,Thulibheri Municipality,9583,203,197,198,395,295,955,855,758,2129,2691,2040,239
+60107,Rural Municipality,Karnali Province,Dolpa,Kaike Rural Municipality,4091,87,84,75,159,117,360,318,276,808,1163,882,103
+60108,Rural Municipality,Karnali Province,Dolpa,Chharka Tangsong Rural Municipality,1678,36,34,20,53,36,118,101,84,336,514,390,42
+60201,Rural Municipality,Karnali Province,Mugu,Mugumkarmarog Rural Municipality,6284,131,126,91,217,154,517,454,391,1081,1721,1305,154
+60202,Rural Municipality,Karnali Province,Mugu,Chhayanath Rara Municipality,22800,473,459,502,961,731,2323,2093,1864,4922,6221,4716,558
+60203,Rural Municipality,Karnali Province,Mugu,Soru Rural Municipality,13462,280,270,342,612,477,1560,1425,1290,2902,3598,2727,330
+60204,Rural Municipality,Karnali Province,Mugu,Khatyad Rural Municipality,19091,396,383,410,793,602,1956,1765,1573,4242,5061,3836,467
+60301,Rural Municipality,Karnali Province,Humla,Chankheli Rural Municipality,6064,127,123,164,287,226,732,671,609,1341,1650,1251,150
+60302,Rural Municipality,Karnali Province,Humla,Kharpunath Rural Municipality,6718,141,136,151,287,219,710,642,574,1423,1868,1416,166
+60303,Rural Municipality,Karnali Province,Humla,Simkot Rural Municipality,13676,287,278,206,484,344,1119,979,841,2917,3721,2820,338
+60304,Rural Municipality,Karnali Province,Humla,Namkha Rural Municipality,5005,105,102,54,156,105,305,254,203,741,1384,1049,124
+60305,Rural Municipality,Karnali Province,Humla,Sarkegad Rural Municipality,10856,228,220,281,501,391,1258,1148,1038,2295,2920,2213,269
+60306,Rural Municipality,Karnali Province,Humla,Adanchuli Rural Municipality,7783,163,158,220,378,299,974,895,816,1792,2076,1574,192
+60307,Rural Municipality,Karnali Province,Humla,Tanjakot Rural Municipality,6549,137,133,156,289,223,741,675,608,1569,1798,1363,162
+60401,Rural Municipality,Karnali Province,Jumla,Patarasi Rural Municipality,16056,340,329,400,729,565,1805,1641,1476,3479,4532,3435,401
+60402,Rural Municipality,Karnali Province,Jumla,Kanaka Sundari Rural Municipality,14769,312,302,315,617,466,1457,1306,1155,3249,4020,3047,368
+60403,Rural Municipality,Karnali Province,Jumla,Sinja Rural Municipality,13232,280,271,328,599,464,1449,1314,1178,3002,3568,2705,330
+60404,Municipality ,Karnali Province,Jumla,Chandannath Municipality,23358,494,478,310,788,548,1699,1459,1221,4769,6650,5040,583
+60405,Rural Municipality,Karnali Province,Jumla,Guthichaur Rural Municipality,10940,231,224,215,439,327,1092,980,868,2373,3113,2360,272
+60406,Rural Municipality,Karnali Province,Jumla,Tatopani Rural Municipality,16109,341,330,351,681,516,1740,1575,1410,3253,4372,3314,402
+60407,Rural Municipality,Karnali Province,Jumla,Tila Rural Municipality,14776,313,302,401,703,552,1820,1669,1518,3160,3823,2898,369
+60408,Rural Municipality,Karnali Province,Jumla,Hima Rural Municipality,11560,244,237,300,537,419,1380,1262,1143,2456,3073,2329,288
+60501,Rural Municipality,Karnali Province,Kalikot,Palata Rural Municipality,16903,355,343,422,765,594,1903,1732,1560,3722,4444,3369,419
+60502,Rural Municipality,Karnali Province,Kalikot,Pachal Jharana Rural Municipality,13835,290,281,294,575,435,1413,1273,1132,2914,3735,2831,342
+60503,Municipality ,Karnali Province,Kalikot,Raskot Municipality,18328,385,372,388,760,574,1875,1689,1503,3803,5039,3820,454
+60504,Rural Municipality,Karnali Province,Kalikot,Sanni Tribeni Rural Municipality,14412,303,293,278,571,425,1418,1272,1125,3008,4012,3041,357
+60505,Rural Municipality,Karnali Province,Kalikot,Naraharinath Rural Municipality,23891,502,485,471,956,714,2386,2144,1901,5147,6403,4853,592
+60506,Municipality ,Karnali Province,Kalikot,Khandachakra Municipality,23302,488,474,507,981,742,2359,2120,1885,4716,6353,4816,575
+60507,Municipality ,Karnali Province,Kalikot,Tilagupha Municipality,17700,372,360,396,756,576,1831,1651,1471,3865,4932,3738,439
+60508,Rural Municipality,Karnali Province,Kalikot,Mahawai Rural Municipality,9337,196,190,235,425,330,986,891,796,2099,2632,1995,231
+60509,Rural Municipality,Karnali Province,Kalikot,Kalika Rural Municipality,15608,328,317,343,660,502,1629,1471,1312,3409,4208,3190,387
+60601,Rural Municipality,Karnali Province,Dailekh,Naumule Rural Municipality,22779,497,481,476,957,717,2322,2082,1841,5121,6542,4959,586
+60602,Rural Municipality,Karnali Province,Dailekh,Mahabu Rural Municipality,21041,459,444,442,886,664,2149,1927,1705,4637,6264,4748,541
+60603,Rural Municipality,Karnali Province,Dailekh,Bhairabi Rural Municipality,23397,511,494,525,1019,772,2474,2227,1980,4890,6438,4880,603
+60604,Rural Municipality,Karnali Province,Dailekh,Thantikandh Rural Municipality,20454,446,432,487,919,703,2386,2170,1954,4138,5451,4132,526
+60605,Municipality ,Karnali Province,Dailekh,Aathbis Municipality,31819,694,672,830,1502,1166,3829,3493,3157,6451,8667,6570,818
+60606,Municipality ,Karnali Province,Dailekh,Chamunda Bindrasaini Municipality,28550,623,603,695,1298,997,3216,2915,2613,6030,7544,5718,735
+60607,Municipality ,Karnali Province,Dailekh,Dullu Municipality,45836,1000,968,962,1930,1446,4549,4065,3581,9748,12929,9800,1179
+60608,Municipality ,Karnali Province,Dailekh,Narayan Municipality,31546,689,666,512,1178,844,2568,2234,1902,6482,9543,7234,813
+60609,Rural Municipality,Karnali Province,Dailekh,Bhagawatimai Rural Municipality,20254,442,428,453,881,667,2187,1973,1759,4748,5661,4291,521
+60610,Rural Municipality,Karnali Province,Dailekh,Dungeshwor Rural Municipality,17816,389,376,297,673,485,1517,1329,1141,3914,5374,4073,459
+60611,Rural Municipality,Karnali Province,Dailekh,Gurans Rural Municipality,24521,535,518,500,1018,759,2406,2147,1888,5120,7135,5408,631
+60701,Rural Municipality,Karnali Province,Jajarkot,Barekot Rural Municipality,20116,429,416,398,814,606,2041,1833,1625,4057,5568,4221,506
+60702,Rural Municipality,Karnali Province,Jajarkot,Kuse Rural Municipality,22717,485,469,529,998,764,2516,2282,2047,4750,6205,4703,572
+60703,Rural Municipality,Karnali Province,Jajarkot,Junichande Rural Municipality,23750,507,491,614,1105,860,2833,2588,2342,5018,6422,4868,598
+60704,Municipality ,Karnali Province,Jajarkot,Chhedagad Municipality,38982,832,805,903,1708,1306,4242,3840,3437,8632,10665,8084,981
+60705,Rural Municipality,Karnali Province,Jajarkot,Shivalaya Rural Municipality,17101,365,353,371,724,548,1779,1603,1426,3741,4683,3550,430
+60706,Municipality ,Karnali Province,Jajarkot,Bheri Malika Municipality,39997,855,827,706,1533,1118,3304,2889,2477,8666,11505,8721,1009
+60707,Municipality ,Karnali Province,Jajarkot,Tribeni Nalagad Municipality,28471,608,588,610,1198,904,2959,2665,2371,5845,7900,5988,717
+60801,Municipality ,Karnali Province,Rukum West,Aathabisakot Municipality,35608,836,809,883,1692,1288,4202,3798,3393,7436,10080,7641,986
+60802,Rural Municipality,Karnali Province,Rukum West,Sanibheri Rural Municipality,23501,552,534,579,1113,846,2733,2466,2199,5071,6917,5243,651
+60803,Rural Municipality,Karnali Province,Rukum West,Banphikot Rural Municipality,19950,468,453,464,917,691,2236,2010,1783,4342,6013,4558,552
+60804,Municipality ,Karnali Province,Rukum West,Musikot Municipality,36909,866,839,634,1473,1052,3273,2852,2434,7905,11439,8670,1020
+60805,Rural Municipality,Karnali Province,Rukum West,Tribeni Rural Municipality,20841,489,473,428,901,665,2112,1876,1639,4633,6621,5019,577
+60806,Municipality ,Karnali Province,Rukum West,Chaurjahari Municipality,29673,697,674,581,1255,918,2862,2525,2188,6537,9061,6868,822
+60901,Rural Municipality,Karnali Province,Salyan,Darma Rural Municipality,21630,491,475,553,1028,791,2501,2264,2026,4677,5842,4428,579
+60902,Rural Municipality,Karnali Province,Salyan,Kumakh Malika Rural Municipality,27096,614,595,633,1228,931,2956,2659,2361,5892,7882,5975,724
+60903,Municipality ,Karnali Province,Salyan,Banagad Kupinde Municipality,39264,890,862,922,1784,1353,4374,3943,3512,8154,11146,8449,1050
+60904,Municipality ,Karnali Province,Salyan,Dhorchaur Rural Municipality,14711,334,323,311,634,473,1538,1377,1215,3144,4300,3259,394
+60905,Municipality ,Karnali Province,Salyan,Bagachour Municipality,37302,846,819,761,1580,1171,3757,3348,2938,7858,10715,8122,998
+60906,Rural Municipality,Karnali Province,Salyan,Chhatreshwori Rural Municipality,23374,530,513,474,987,731,2258,2002,1745,5111,7427,5630,625
+60907,Municipality ,Karnali Province,Salyan,Sharada Municipality,37868,859,829,619,1448,1030,3312,2894,2483,7771,11677,8851,1012
+60908,Rural Municipality,Karnali Province,Salyan,Kalimati Rural Municipality,25139,570,552,557,1109,833,2678,2402,2126,5297,7180,5442,672
+60909,Rural Municipality,Karnali Province,Salyan,Tribeni Rural Municipality,18175,412,399,319,718,519,1634,1435,1235,4031,5744,4354,486
+60910,Rural Municipality,Karnali Province,Salyan,Kapurkot Rural Municipality,19926,452,437,450,887,669,2106,1888,1669,4228,5906,4477,533
+61001,Rural Municipality,Karnali Province,Surkhet,Simta Rural Municipality,29809,661,639,741,1380,1061,3357,3038,2718,6407,8410,6375,779
+61002,Rural Municipality,Karnali Province,Surkhet,Chingad Rural Municipality,19373,429,415,511,926,719,2390,2183,1975,4269,5213,3951,506
+61003,Municipality ,Karnali Province,Surkhet,Lekabeshi Municipality,36377,806,780,745,1525,1135,3631,3241,2851,7238,10593,8029,950
+61004,Municipality ,Karnali Province,Surkhet,Gurbhakot Municipality,50615,1122,1085,1161,2246,1704,5396,4854,4311,10745,15001,11371,1323
+61005,Municipality ,Karnali Province,Surkhet,Bheriganga Municipality,47151,1045,1011,1081,2092,1587,5078,4573,4067,10671,13976,10594,1232
+61006,Municipality ,Karnali Province,Surkhet,Birendranagar Municipality,121494,2693,2607,1819,4426,3119,9849,8542,7242,24503,35901,27212,3177
+61007,Rural Municipality,Karnali Province,Surkhet,Barahatal Rural Municipality,30514,676,654,696,1350,1023,3309,2982,2655,6568,8588,6510,797
+61008,Municipality ,Karnali Province,Surkhet,Panchapuri Municipality,36166,801,776,964,1740,1352,4414,4026,3638,8098,9903,7506,945
+61009,Rural Municipality,Karnali Province,Surkhet,Chaukune Rural Municipality,28168,624,604,811,1415,1113,3614,3312,3010,6472,7319,5548,736
+70101,Rural Municipality,Sudurpashchim Province,Bajura,Himali Rural Municipality,10300,225,217,225,442,334,1057,949,840,2121,2718,2060,265
+70102,Rural Municipality,Sudurpashchim Province,Bajura,Gaumul Rural Municipality,9405,205,198,188,386,287,941,842,743,1940,2649,2008,242
+70103,Municipality ,Sudurpashchim Province,Bajura,Budhinanda Municipality,21280,464,449,429,878,654,2103,1879,1654,4431,6014,4559,547
+70104,Rural Municipality,Sudurpashchim Province,Bajura,Swami Kartik Rural Municipality,14202,310,300,321,621,471,1514,1364,1214,3072,3939,2986,366
+70105,Rural Municipality,Sudurpashchim Province,Bajura,Jagannath Rural Municipality,10492,229,221,237,458,348,1123,1013,902,2249,2963,2246,270
+70106,Municipality ,Sudurpashchim Province,Bajura,Badimalika Municipality,19600,427,414,327,741,532,1700,1491,1286,4079,5423,4111,503
+70107,Rural Municipality,Sudurpashchim Province,Bajura,Khaptad Chhededaha Rural Municipality,20646,450,436,495,931,713,2280,2062,1844,4465,5965,4521,531
+70108,Municipality ,Sudurpashchim Province,Bajura,Budhiganga Municipality,23825,519,503,522,1025,774,2471,2220,1968,5314,7072,5361,612
+70109,Municipality ,Sudurpashchim Province,Bajura,Tribeni Municipality,20188,440,426,473,899,686,2223,2010,1797,4231,5672,4299,519
+70201,Rural Municipality,Sudurpashchim Province,Bajhang,Kanda Rural Municipality,2404,54,52,48,100,74,248,222,196,496,650,493,64
+70202,Municipality ,Sudurpashchim Province,Bajhang,Bungal Municipality,36756,821,795,845,1640,1243,3936,3539,3141,7533,10426,7903,968
+70203,Rural Municipality,Sudurpashchim Province,Bajhang,Surma Rural Municipality,9816,219,212,255,467,361,1196,1090,984,1902,2697,2044,258
+70204,Rural Municipality,Sudurpashchim Province,Bajhang,Talkot Rural Municipality,12731,284,275,293,568,431,1388,1251,1113,2596,3630,2752,335
+70205,Rural Municipality,Sudurpashchim Province,Bajhang,Masta Rural Municipality,16353,365,354,324,678,501,1697,1520,1343,3275,4715,3574,430
+70206,Municipality ,Sudurpashchim Province,Bajhang,Jayaprithbi Municipality,25332,568,549,410,959,683,2131,1855,1582,5469,7239,5486,670
+70207,Rural Municipality,Sudurpashchim Province,Bajhang,Chhabis Pathibhara Rural Municipality,18026,403,390,333,723,528,1679,1484,1289,3999,5345,4052,475
+70208,Rural Municipality,Sudurpashchim Province,Bajhang,Durgathali Rural Municipality,14154,316,306,283,589,436,1405,1252,1099,3292,4314,3270,373
+70209,Rural Municipality,Sudurpashchim Province,Bajhang,Kedarsyun Rural Municipality,23311,521,504,535,1039,787,2529,2277,2025,4995,6744,5112,614
+70210,Rural Municipality,Sudurpashchim Province,Bajhang,Bitthadchir Rural Municipality,18837,421,407,495,902,699,2169,1966,1762,3818,5407,4099,496
+70211,Rural Municipality,Sudurpashchim Province,Bajhang,Thalara Rural Municipality,19667,439,425,429,854,642,2040,1828,1615,4365,5924,4490,518
+70212,Rural Municipality,Sudurpashchim Province,Bajhang,Khaptad Chhanna Rural Municipality,17408,389,376,320,696,508,1623,1435,1247,3907,5182,3928,459
+70301,Rural Municipality,Sudurpashchim Province,Darchula,Byas Rural Municipality,11007,247,239,202,441,322,1018,899,779,2317,3198,2424,291
+70302,Rural Municipality,Sudurpashchim Province,Darchula,Duhun Rural Municipality,11557,259,251,243,494,369,1120,995,869,2534,3385,2566,305
+70303,Municipality ,Sudurpashchim Province,Darchula,Mahakali Municipality,23691,532,515,355,870,610,1966,1706,1451,5036,7067,5357,627
+70304,Rural Municipality,Sudurpashchim Province,Darchula,Naugad Rural Municipality,16463,369,357,487,844,666,2223,2045,1866,3521,4516,3423,435
+70305,Rural Municipality,Sudurpashchim Province,Darchula,Apihimal Rural Municipality,7245,163,157,154,311,233,756,678,599,1570,1954,1481,192
+70306,Rural Municipality,Sudurpashchim Province,Darchula,Marma Rural Municipality,15823,355,344,423,767,595,1894,1722,1550,3419,4379,3319,419
+70307,Municipality ,Sudurpashchim Province,Darchula,Shailyashikhar Municipality,23606,530,513,484,997,741,2367,2111,1854,4913,6980,5291,625
+70308,Rural Municipality,Sudurpashchim Province,Darchula,Malikarjun Rural Municipality,16555,371,359,337,696,517,1613,1434,1254,3428,4947,3750,438
+70309,Rural Municipality,Sudurpashchim Province,Darchula,Lekam Rural Municipality,15659,351,340,325,665,495,1572,1402,1232,3352,4786,3628,414
+70401,Rural Municipality,Sudurpashchim Province,Baitadi,Dilasaini Rural Municipality,24068,552,534,505,1039,772,2455,2188,1921,5078,6932,5254,651
+70402,Rural Municipality,Sudurpashchim Province,Baitadi,Dogada Kedar Rural Municipality,25679,589,570,576,1146,861,2715,2430,2145,5311,7865,5962,695
+70403,Municipality ,Sudurpashchim Province,Baitadi,Puchaundi Municipality,40992,940,910,937,1847,1392,4522,4067,3612,8470,11326,8585,1108
+70404,Rural Municipality,Sudurpashchim Province,Baitadi,Surnaya Rural Municipality,19287,442,428,420,848,634,2031,1817,1603,4135,5956,4515,521
+70405,Municipality ,Sudurpashchim Province,Baitadi,Dasharathchand Municipality,37342,858,829,635,1464,1048,3242,2826,2413,7826,11445,8675,1012
+70406,Rural Municipality,Sudurpashchim Province,Baitadi,Pancheshwor Rural Municipality,19368,444,430,424,854,639,2077,1862,1647,4250,5860,4442,524
+70407,Rural Municipality,Sudurpashchim Province,Baitadi,Shivanath Rural Municipality,17688,406,393,439,832,636,2022,1826,1629,3852,5175,3923,479
+70408,Municipality ,Sudurpashchim Province,Baitadi,Melauli Municipality,23403,537,520,419,939,679,2237,1977,1717,5205,7086,5371,633
+70409,Municipality ,Sudurpashchim Province,Baitadi,Patan Municipality,32112,737,713,646,1359,1003,3114,2758,2401,6986,9977,7563,869
+70410,Rural Municipality,Sudurpashchim Province,Baitadi,Sigas Rural Municipality,22586,518,501,533,1034,784,2477,2227,1976,4601,6520,4942,611
+70501,Rural Municipality,Sudurpashchim Province,Dadeldhura,Nawadurga Rural Municipality,21463,491,475,521,996,759,2344,2107,1869,4569,6912,5239,579
+70502,Municipality ,Sudurpashchim Province,Dadeldhura,Amargadhi Municipality,24964,571,555,369,924,646,2003,1725,1448,4673,7395,5605,672
+70503,Rural Municipality,Sudurpashchim Province,Dadeldhura,Ajayameru Rural Municipality,18706,428,414,315,729,522,1659,1452,1245,4021,5573,4224,505
+70504,Rural Municipality,Sudurpashchim Province,Dadeldhura,Bhageshwor Rural Municipality,15286,350,338,296,634,465,1530,1361,1192,3292,4241,3215,413
+70505,Municipality ,Sudurpashchim Province,Dadeldhura,Parashuram Municipality,37551,859,831,890,1721,1306,4225,3810,3394,8466,10799,8186,1013
+70506,Rural Municipality,Sudurpashchim Province,Dadeldhura,Aalital Rural Municipality,19893,455,440,475,915,695,2270,2050,1830,4272,5629,4267,537
+70507,Rural Municipality,Sudurpashchim Province,Dadeldhura,Ganyapdhura Rural Municipality,16273,372,360,386,746,566,1761,1581,1401,3423,5196,3939,439
+70601,Rural Municipality,Sudurpashchim Province,Doti,Purbichouki Rural Municipality,22320,539,522,593,1115,854,2688,2427,2166,4681,7310,5541,636
+70602,Rural Municipality,Sudurpashchim Province,Doti,Sayal Rural Municipality,19411,469,454,526,980,753,2378,2151,1924,3846,6019,4562,553
+70603,Rural Municipality,Sudurpashchim Province,Doti,Aadarsha Rural Municipality,24224,585,566,576,1142,859,2771,2488,2205,5088,7846,5947,690
+70604,Municipality ,Sudurpashchim Province,Doti,Shikhar Municipality,32646,788,763,643,1406,1025,3212,2831,2449,6848,10956,8305,929
+70605,Municipality ,Sudurpashchim Province,Doti,Dipayal Silgadhi Municipality,37274,901,871,569,1440,1004,3095,2659,2224,7587,10990,8331,1063
+70606,Rural Municipality,Sudurpashchim Province,Doti,K.I. Singh Rural Municipality,20861,504,488,461,949,705,2243,1999,1755,4549,6875,5211,594
+70607,Rural Municipality,Sudurpashchim Province,Doti,Bogatan Rural Municipality,17973,434,420,395,815,605,1926,1716,1506,3941,5433,4118,512
+70608,Rural Municipality,Sudurpashchim Province,Doti,Badi Kedar Rural Municipality,16856,407,394,340,734,537,1723,1526,1329,3845,4955,3756,480
+70609,Rural Municipality,Sudurpashchim Province,Doti,Jorayal Rural Municipality,22032,532,515,311,826,569,1763,1506,1248,4822,6549,4964,627
+70701,Municipality ,Sudurpashchim Province,Achham,Panchdebal Binayak Municipality,29529,670,648,653,1301,977,3195,2871,2547,6315,8749,6632,790
+70702,Rural Municipality,Sudurpashchim Province,Achham,Ramaroshan Rural Municipality,27348,620,600,638,1238,938,2986,2686,2386,5730,7798,5911,731
+70703,Rural Municipality,Sudurpashchim Province,Achham,Mellekh Rural Municipality,26528,602,582,578,1160,869,2814,2523,2232,5744,7604,5764,710
+70704,Municipality ,Sudurpashchim Province,Achham,Sanphebagar Municipality,37756,856,829,678,1507,1093,3348,2934,2519,8131,11105,8418,1009
+70705,Rural Municipality,Sudurpashchim Province,Achham,Chaurpati Rural Municipality,26917,610,591,662,1253,958,3091,2796,2500,5620,8169,6192,719
+70706,Municipality ,Sudurpashchim Province,Achham,Mangalsen Municipality,36444,827,800,718,1518,1117,3520,3119,2720,7488,10858,8230,976
+70707,Rural Municipality,Sudurpashchim Province,Achham,Bannigadhi Jayagadh Rural Municipality,18967,430,416,367,783,575,1803,1595,1387,4226,5900,4472,507
+70708,Municipality ,Sudurpashchim Province,Achham,Kamal Bazar Municipality,25873,587,568,542,1110,826,2645,2361,2077,5604,7713,5846,692
+70709,Rural Municipality,Sudurpashchim Province,Achham,Dhakari Rural Municipality,23410,531,514,496,1010,753,2454,2197,1940,4821,6631,5026,626
+70710,Rural Municipality,Sudurpashchim Province,Achham,Turmakhand Rural Municipality,26980,612,592,589,1181,885,2823,2527,2231,5727,7795,5909,722
+70801,Rural Municipality,Sudurpashchim Province,Kailali,Mohanyal Rural Municipality,25250,559,541,885,1426,1156,3810,3540,3269,5423,6264,4748,659
+70802,Rural Municipality,Sudurpashchim Province,Kailali,Chure Rural Municipality,21949,486,471,720,1191,956,3152,2917,2681,4474,5596,4242,573
+70803,Municipality ,Sudurpashchim Province,Kailali,Godawari Municipality,92186,2043,1977,2286,4263,3275,10626,9638,8649,19421,26163,19832,2409
+70804,Municipality ,Sudurpashchim Province,Kailali,Gauriganga Municipality,67536,1496,1448,1570,3018,2294,7335,6611,5887,14064,18833,14275,1764
+70805,Municipality ,Sudurpashchim Province,Kailali,Ghodaghodi Municipality,87825,1946,1883,1921,3804,2863,9342,8401,7459,19316,24796,18795,2295
+70806,Rural Municipality,Sudurpashchim Province,Kailali,Bardagoriya Rural Municipality,37750,836,809,911,1720,1316,4311,3907,3502,8042,10458,7927,986
+70807,Municipality ,Sudurpashchim Province,Kailali,Lamki Chuha Municipality,87733,1944,1881,2180,4061,3121,10222,9282,8341,18837,25245,19136,2292
+70808,Rural Municipality,Sudurpashchim Province,Kailali,Janaki Rural Municipality,56659,1255,1215,1156,2371,1764,5449,4842,4234,12074,17134,12988,1480
+70809,Rural Municipality,Sudurpashchim Province,Kailali,Joshipur Rural Municipality,42775,948,917,784,1701,1243,3850,3392,2933,8776,12759,9671,1118
+70810,Municipality ,Sudurpashchim Province,Kailali,Tikapur Municipality,89526,1984,1920,1543,3463,2503,7912,6952,5992,19533,26434,20037,2340
+70811,Municipality ,Sudurpashchim Province,Kailali,Bhajani Municipality,60840,1348,1305,1250,2555,1903,6026,5374,4721,12559,17318,13127,1590
+70812,Rural Municipality,Sudurpashchim Province,Kailali,Kailari Rural Municipality,56804,1259,1218,923,2141,1532,4601,3992,3383,11591,17060,12931,1485
+70813,Sub-Metropolitan City,Sudurpashchim Province,Kailali,Dhangadhi Sub-Metropolitan City,174344,3863,3738,3106,6844,4968,15900,14024,12162,37485,50985,38646,4555
+70901,Municipality ,Sudurpashchim Province,Kanchanpur,Krishnapur Municipality,63390,1451,1405,1459,2864,2162,6980,6278,5575,13459,18416,13959,1711
+70902,Municipality ,Sudurpashchim Province,Kanchanpur,Shuklaphanta Municipality,53153,1217,1178,1228,2406,1817,5795,5206,4617,11464,15737,11929,1435
+70903,Municipality ,Sudurpashchim Province,Kanchanpur,Bedkot Municipality,55670,1275,1233,1213,2446,1830,5854,5238,4621,11798,16545,12541,1504
+70904,Municipality ,Sudurpashchim Province,Kanchanpur,Bhimdatta Municipality,121828,2789,2699,1989,4688,3336,10465,9113,7766,24602,36092,27357,3290
+70905,Municipality ,Sudurpashchim Province,Kanchanpur,Mahakali Municipality,44011,1008,975,1134,2109,1622,5162,4675,4187,9263,13288,10072,1189
+70906,Rural Municipality,Sudurpashchim Province,Kanchanpur,Laljhadi Rural Municipality,25438,582,564,589,1153,871,2805,2523,2241,5187,7292,5527,686
+70907,Municipality ,Sudurpashchim Province,Kanchanpur,Punarbas Municipality,59991,1374,1329,1485,2814,2150,6898,6234,5569,13015,17836,13520,1620
+70908,Municipality ,Sudurpashchim Province,Kanchanpur,Belouri Municipality,60251,1380,1335,1021,2356,1689,5350,4683,4015,13432,18473,14003,1627
+70909,Rural Municipality,Sudurpashchim Province,Kanchanpur,Beldandi Rural Municipality,24418,559,541,600,1141,871,2750,2480,2209,5634,7274,5514,659

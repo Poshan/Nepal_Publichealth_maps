@@ -1,0 +1,250 @@
+---
+title: "Public health data Nepal, 2016"
+format: 
+  html: 
+    page-layout: custom
+execute:
+  echo: true
+editor: visual
+server: shiny
+---
+
+```{r}
+#| echo: false
+#| warning: false
+library(dplyr)
+library(sf)
+library(ggplot2)
+library(shiny)
+library(knitr)
+```
+
+## Maps related to public health at local levels in Nepal (2017/18)
+
+## Loading the dataset
+
+-   Health data: Count of various diseases
+
+-   Health facilities data: Number of public and private health facilities in the local levels
+
+    These datasets can be downloaded from the [~~*department of health services website*~~](https://dohs.gov.np/dohswebsite/public/ihims-raw-data) (link broken now) for the year 2017/18 AD (2074/75 BS)
+
+-   Boundary of local levels: Geometry file (.shp) containing the boundary of local levels
+
+    The boundary data is downloaded from [National geoportal of Nepal.](https://nationalgeoportal.gov.np/#/metadata/97)
+
+## Number of health facilities
+
+```{r}
+#| echo: false
+#| warning: false
+
+health_facilities <- read.csv("data/raw_data/health_facilities.csv")
+boundary <- read_sf("data/boundary/NepalLocalUnits0.shp")
+boundary |> left_join(health_facilities, by = c("fid" ="fid")) -> joined_local_level
+
+ggplot(data = joined_local_level) +
+    geom_sf(aes(fill = Total.health.facilities..Public.and.Non.Public., geometry = geometry), 
+            linewidth = 0.1, alpha = 0.5) +
+    scale_fill_viridis_c(option = "D", trans = "sqrt") +
+    theme_minimal() +
+    theme(legend.position = "bottom") +
+    labs(fill = "No of health facilities")
+
+```
+
+### Province-wise number of health facilities
+
+```{r}
+#| echo: false
+#| panel: sidebar
+# Create a dropdown for selecting provinces
+provinces <- unique(joined_local_level$Provinces)
+selectInput('selectedProvince', 'Select Province', provinces)
+```
+
+```{r}
+#| panel: fill
+#| echo: false
+# Plot output for displaying the map
+plotOutput('healthMap')
+```
+
+```{r}
+#| context: server
+library(dplyr)
+library(sf)
+library(ggplot2)
+library(shiny)
+health_count <- read.csv("data/raw_data/health_data.csv")
+health_facilities <- read.csv("data/raw_data/health_facilities.csv")
+boundary <- read_sf("data/boundary/NepalLocalUnits0.shp")
+boundary |> left_join(health_facilities, by = c("fid" ="fid")) -> joined_local_level
+
+selectedData <- reactive({
+    joined_local_level |> filter(Provinces == input$selectedProvince)
+  })
+# Render the plot based on the selected province
+output$healthMap <- renderPlot({
+  data <- selectedData()
+  # Generate the plot
+  ggplot(data = data) +
+    geom_sf(aes(fill = Total.health.facilities..Public.and.Non.Public., geometry = geometry), 
+            linewidth = 0.1, alpha = 0.5) +
+    scale_fill_viridis_c(option = "D", trans = "sqrt") +
+    theme_minimal() +
+    theme(legend.position = "bottom") +
+    labs(fill = "No of health facilities")
+})
+```
+
+## Total Outpatient Department (OPD) visitors
+
+Showing local levels with OPD visitors less than 100,000 (16 local levels missing shown below in table)
+
+```{r}
+#| echo: false
+#| warning: false
+health_count <- read.csv("data/raw_data/health_data.csv")
+health_count$total_opd <- health_count$Total.New.OPD.Visits.Male + health_count$Total.New.OPD.Visits.Female
+boundary <- read_sf("data/boundary/NepalLocalUnits0.shp")
+boundary |> left_join(health_count, by = c("fid" ="fid")) -> joined_local_level_1
+
+ggplot(data = joined_local_level_1) +
+  geom_sf(aes(fill = ifelse(total_opd>100000, NA, total_opd),
+              geometry = geometry),
+          linewidth = 0.1, alpha = 0.5) +
+  scale_fill_viridis_c(option = "D", trans = "sqrt", na.value = "transparent") +
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        legend.key.width = unit(2, "cm")) +
+  labs(fill = "No of OPD visitors")
+
+```
+
+The local levels with high number of OPD visitors are following 16 local levels which are mostly large cities (also related to presence of many health facilities):
+
+```{r}
+# Selecting required columns: Local Level Name, District Name, and Malaria case count
+selected_data <- joined_local_level_1 |>
+  select(Name.of.Government.Unit.x, DISTRICT, Provinces.y, total_opd) |>
+  arrange(desc(total_opd)) |> st_drop_geometry()
+
+# Display the top 10
+top_10_local_levels <- head(selected_data, 16)
+
+kable(top_10_local_levels, 
+      caption = "Local levels with more than 100,000 OPD visitors",
+      col.names = c("Local Level", "District", "Province", "OPD visitors"),
+      align = c("l", "l", "l", "r"))
+```
+
+```         
+"Total.Diarrhoea.cases", "Fully.Immunized.Children" 
+```
+
+# Infectious disease
+
+## Total number of Malaria cases 
+
+```{r}
+#| echo: false
+#| warning: false
+
+
+ggplot(data = joined_local_level_1) +
+  geom_sf(aes(fill = ifelse(Malaria..Total.number.of.positive.cases == 0, 
+                            NA, 
+                            Malaria..Total.number.of.positive.cases),
+              geometry = geometry),
+          linewidth = 0.1, alpha = 0.5) +
+  scale_fill_viridis_c(option = "D", trans = "sqrt", na.value = "transparent") +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  labs(fill = "No of Malaria cases")
+```
+
+It is worth noting that, although malaria cases are primarily clustered in the southern regions (the plains of the Terai), there are notable exceptions where high case numbers are reported in the hilly and mountainous districts, particularly in the western region. Here is a list of several notable local levels that indicate a higher distribution of cases in the Western and Far Western regions.
+
+```{r}
+# Selecting required columns: Local Level Name, District Name, and Malaria case count
+selected_data <- joined_local_level_1 |>
+  select(Name.of.Government.Unit.x, DISTRICT, Provinces.y, Malaria..Total.number.of.positive.cases) |>
+  arrange(desc(Malaria..Total.number.of.positive.cases)) |> st_drop_geometry()
+
+# Display the top 10
+top_10_local_levels <- head(selected_data, 10)
+
+kable(top_10_local_levels, 
+      caption = "Top 10 Local Levels with Malaria Cases",
+      col.names = c("Local Level", "District", "Province", "Malaria Total.number.of.positive.cases"),
+      align = c("l", "l", "l", "r"))
+```
+
+## Total number of Tuberculosis cases 
+
+```{r}
+#| echo: false
+#| warning: false
+
+
+ggplot(data = joined_local_level_1) +
+  geom_sf(aes(fill = TB.PBC..new..registered.cases,
+              geometry = geometry),
+          linewidth = 0.1, alpha = 0.5) +
+  scale_fill_viridis_c(option = "D", trans = "sqrt", na.value = "transparent") +
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        legend.key.width = unit(1.5, "cm")) +
+  labs(fill = "No of Tuberculosis  cases")
+```
+
+The cases of Tuberculosis are mostly clustered in bigger cities as listed below:
+
+```{r}
+# Selecting required columns: Local Level Name, District Name, and Malaria case count
+selected_data <- joined_local_level_1 |>
+  select(Name.of.Government.Unit.x, DISTRICT, Provinces.y, TB.PBC..new..registered.cases) |>
+  arrange(desc(TB.PBC..new..registered.cases)) |> st_drop_geometry()
+
+# Display the top 10
+top_10_local_levels <- head(selected_data, 20)
+
+kable(top_10_local_levels, 
+      caption = "Top 10 Local Levels with Malaria Cases",
+      col.names = c("Local Level", "District", "Province ", "New TB cases"),
+      align = c("l", "l", "l", "r"))
+```
+
+Here we look at the historical TB patient's information in the number of cured TB cases
+
+```{r}
+#| echo: false
+#| warning: false
+
+
+ggplot(data = joined_local_level_1) +
+  geom_sf(aes(fill = TB.PBC..new..treatment.completed....cured.and.completed..cases,
+              geometry = geometry),
+          linewidth = 0.1, alpha = 0.5) +
+  scale_fill_viridis_c(option = "D", trans = "sqrt", na.value = "transparent") +
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        legend.key.width = unit(1.5, "cm")) +
+  labs(fill = "No of Cured Tuberculosis  cases")
+```
+
+```{r}
+# Selecting required columns: Local Level Name, District Name, and Malaria case count
+selected_data <- joined_local_level_1 |>
+  select(Name.of.Government.Unit.x, DISTRICT, Provinces.y, TB.PBC..new..treatment.completed....cured.and.completed..cases) |>
+  arrange(desc(TB.PBC..new..treatment.completed....cured.and.completed..cases)) |> st_drop_geometry()
+
+# Display the top 10
+top_10_local_levels <- head(selected_data, 20)
+
+kable(top_10_local_levels, 
+      caption = "Top 10 Local Levels with Malaria Cases",
+      col.names = c("Local Level", "District", "Province ", "Cured TB cases"),
+      align = c("l", "l", "l", "r"))
+```
