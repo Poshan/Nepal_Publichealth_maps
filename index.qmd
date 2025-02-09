@@ -125,6 +125,8 @@ ggplot(data = joined_local_level_1) +
 The local levels with high number of OPD visitors are following 16 local levels which are mostly large cities (also related to presence of many health facilities):
 
 ```{r}
+#| echo: false
+#| warning: false
 # Selecting required columns: Local Level Name, District Name, and Malaria case count
 selected_data <- joined_local_level_1 |>
   select(Name.of.Government.Unit.x, DISTRICT, Provinces.y, total_opd) |>
@@ -145,7 +147,7 @@ kable(top_10_local_levels,
 
 # Infectious disease
 
-## Total number of Malaria cases 
+## Total number of Malaria cases
 
 ```{r}
 #| echo: false
@@ -167,6 +169,8 @@ ggplot(data = joined_local_level_1) +
 It is worth noting that, although malaria cases are primarily clustered in the southern regions (the plains of the Terai), there are notable exceptions where high case numbers are reported in the hilly and mountainous districts, particularly in the western region. Here is a list of several notable local levels that indicate a higher distribution of cases in the Western and Far Western regions.
 
 ```{r}
+#| echo: false
+#| warning: false
 # Selecting required columns: Local Level Name, District Name, and Malaria case count
 selected_data <- joined_local_level_1 |>
   select(Name.of.Government.Unit.x, DISTRICT, Provinces.y, Malaria..Total.number.of.positive.cases) |>
@@ -181,7 +185,7 @@ kable(top_10_local_levels,
       align = c("l", "l", "l", "r"))
 ```
 
-## Total number of Tuberculosis cases 
+## Total number of Tuberculosis cases
 
 ```{r}
 #| echo: false
@@ -202,6 +206,8 @@ ggplot(data = joined_local_level_1) +
 The cases of Tuberculosis are mostly clustered in bigger cities as listed below:
 
 ```{r}
+#| echo: false
+#| warning: false
 # Selecting required columns: Local Level Name, District Name, and Malaria case count
 selected_data <- joined_local_level_1 |>
   select(Name.of.Government.Unit.x, DISTRICT, Provinces.y, TB.PBC..new..registered.cases) |>
@@ -235,6 +241,8 @@ ggplot(data = joined_local_level_1) +
 ```
 
 ```{r}
+#| echo: false
+#| warning: false
 # Selecting required columns: Local Level Name, District Name, and Malaria case count
 selected_data <- joined_local_level_1 |>
   select(Name.of.Government.Unit.x, DISTRICT, Provinces.y, TB.PBC..new..treatment.completed....cured.and.completed..cases) |>
