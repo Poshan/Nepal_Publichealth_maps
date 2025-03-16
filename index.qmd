@@ -1,12 +1,10 @@
 ---
+title-block-banner: true
 title: "Public health data Nepal, 2016"
-format: 
-  html: 
-    page-layout: custom
-execute:
-  echo: true
+date: 2025-02-01
+author-title: Biplov Parajuli and Poshan Niraula
+format: html
 editor: visual
-server: shiny
 ---
 
 ```{r}
@@ -51,51 +49,6 @@ ggplot(data = joined_local_level) +
     theme(legend.position = "bottom") +
     labs(fill = "No of health facilities")
 
-```
-
-### Province-wise number of health facilities
-
-```{r}
-#| echo: false
-#| panel: sidebar
-# Create a dropdown for selecting provinces
-provinces <- unique(joined_local_level$Provinces)
-selectInput('selectedProvince', 'Select Province', provinces)
-```
-
-```{r}
-#| panel: fill
-#| echo: false
-# Plot output for displaying the map
-plotOutput('healthMap')
-```
-
-```{r}
-#| context: server
-library(dplyr)
-library(sf)
-library(ggplot2)
-library(shiny)
-health_count <- read.csv("data/raw_data/health_data.csv")
-health_facilities <- read.csv("data/raw_data/health_facilities.csv")
-boundary <- read_sf("data/boundary/NepalLocalUnits0.shp")
-boundary |> left_join(health_facilities, by = c("fid" ="fid")) -> joined_local_level
-
-selectedData <- reactive({
-    joined_local_level |> filter(Provinces == input$selectedProvince)
-  })
-# Render the plot based on the selected province
-output$healthMap <- renderPlot({
-  data <- selectedData()
-  # Generate the plot
-  ggplot(data = data) +
-    geom_sf(aes(fill = Total.health.facilities..Public.and.Non.Public., geometry = geometry), 
-            linewidth = 0.1, alpha = 0.5) +
-    scale_fill_viridis_c(option = "D", trans = "sqrt") +
-    theme_minimal() +
-    theme(legend.position = "bottom") +
-    labs(fill = "No of health facilities")
-})
 ```
 
 ## Total Outpatient Department (OPD) visitors
@@ -152,7 +105,13 @@ kable(top_10_local_levels,
 ```{r}
 #| echo: false
 #| warning: false
+library(ggforce)
 
+circle_data <- data.frame(
+  x = 81.615917, # Longitude of the center
+  y = 29.464046, # Latitude of the center
+  r = 0.5   # Radius of the circle
+)
 
 ggplot(data = joined_local_level_1) +
   geom_sf(aes(fill = ifelse(Malaria..Total.number.of.positive.cases == 0, 
@@ -160,17 +119,23 @@ ggplot(data = joined_local_level_1) +
                             Malaria..Total.number.of.positive.cases),
               geometry = geometry),
           linewidth = 0.1, alpha = 0.5) +
+    geom_circle(data = circle_data,
+               aes(x0 = x, y0 = y, r = r),
+               color = "red", fill = NA, size = 1) +
+  coord_sf(datum = NA) +
   scale_fill_viridis_c(option = "D", trans = "sqrt", na.value = "transparent") +
   theme_minimal() +
   theme(legend.position = "bottom") +
   labs(fill = "No of Malaria cases")
 ```
 
-It is worth noting that, although malaria cases are primarily clustered in the southern regions (the plains of the Terai), there are notable exceptions where high case numbers are reported in the hilly and mountainous districts, particularly in the western region. Here is a list of several notable local levels that indicate a higher distribution of cases in the Western and Far Western regions.
+It is worth noting that, although malaria cases are primarily clustered in the southern regions (the plains of the Terai = hot and humid climate), there are notable exceptions where high case numbers are reported in the hilly and mountainous districts, particularly in the western region. Here is a list of several notable local levels that indicate a higher distribution of cases in the Western and Far Western regions.
 
 ```{r}
 #| echo: false
 #| warning: false
+
+library(ggforce)
 # Selecting required columns: Local Level Name, District Name, and Malaria case count
 selected_data <- joined_local_level_1 |>
   select(Name.of.Government.Unit.x, DISTRICT, Provinces.y, Malaria..Total.number.of.positive.cases) |>
@@ -190,6 +155,7 @@ kable(top_10_local_levels,
 ```{r}
 #| echo: false
 #| warning: false
+
 
 
 ggplot(data = joined_local_level_1) +
@@ -217,7 +183,7 @@ selected_data <- joined_local_level_1 |>
 top_10_local_levels <- head(selected_data, 20)
 
 kable(top_10_local_levels, 
-      caption = "Top 10 Local Levels with Malaria Cases",
+      caption = "Top 10 Local Levels with Tuberculosis Cases",
       col.names = c("Local Level", "District", "Province ", "New TB cases"),
       align = c("l", "l", "l", "r"))
 ```
@@ -252,7 +218,7 @@ selected_data <- joined_local_level_1 |>
 top_10_local_levels <- head(selected_data, 20)
 
 kable(top_10_local_levels, 
-      caption = "Top 10 Local Levels with Malaria Cases",
+      caption = "Top 10 Local Levels with cureed Tuberculosis Cases",
       col.names = c("Local Level", "District", "Province ", "Cured TB cases"),
       align = c("l", "l", "l", "r"))
 ```
